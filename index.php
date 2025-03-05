@@ -45,7 +45,7 @@ include('functions.php');
         
         <!--ABERTURA FOOTER-->
         <footer>
-            
+            <?php rodape(); ?>   
         </footer>
         <!--FECHAMENTO FOOTER-->    
     </div>

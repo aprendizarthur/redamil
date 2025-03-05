@@ -5,6 +5,12 @@
         border-radius: 12px;
     }
 
+    footer{
+      background-color: #FFFFFF;
+      box-shadow: 0px 0px 3px 0px #3E3E42;
+      border-radius: 12px;
+    }
+
     body{
         background-color: #EEEEEE;
     }
@@ -13,23 +19,36 @@
         background-color: #EEEEEE;
     }
 
+/*BOOTSTRAP*/
+    a.nav-link{
+      color: #8d8c8e;
+    }
+
+    a.nav-link:hover{
+      color: #3E3E42;
+    }
+
 /*BOTÕES*/
     .botao-principal{
         background-color: #3E3E42;
         color: #FFFFFF !important; 
         border-radius: 12px;
+        width: 100%;
+        border: 1px solid #3E3E42;
     }
 
     .botao-principal:hover{
         background-color: #FFFFFF;
-        color:#3E3E42!important; 
+        color:#3E3E42 !important; 
         border-radius: 12px;
+        border: 1px solid #3E3E42;
     }
 
     .botao-atencao{
         background-color: #FFDC00;
         color: #3E3E42 !important; 
         border-radius: 12px;
+        width: 100%;
     }
 
     .botao-atencao:hover{
