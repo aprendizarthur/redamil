@@ -1,22 +1,27 @@
 /*ELEMENTOS*/
     header{
-        background-color: #FFFFFF;
-        box-shadow: 0px 0px 3px 0px #3E3E42;
-        border-radius: 12px;
+      background-color: #FFFFFF;
+      border-radius: 12px;
     }
 
     footer{
       background-color: #FFFFFF;
-      box-shadow: 0px 0px 3px 0px #3E3E42;
       border-radius: 12px;
     }
 
     body{
-        background-color: #EEEEEE;
+        background-color: #d7d6d6;
     }
 
-    main{
-        background-color: #EEEEEE;
+/*CLASSES PARA DIVS*/
+    .container.box{
+      background-color: #FFFFFF !important;
+      border-radius: 12px;
+    }
+    .cta-index{
+      background-color: #2A7E3B;
+      border-radius: 12px;
+      flex-direction: column;
     }
 
 /*BOOTSTRAP*/
@@ -28,6 +33,10 @@
       color: #3E3E42;
     }
 
+    .navbar-brand:hover{
+      color: #3E3E42;
+    }
+
 /*BOTÕES*/
     .botao-principal{
         background-color: #3E3E42;
@@ -35,6 +44,7 @@
         border-radius: 12px;
         width: 100%;
         border: 1px solid #3E3E42;
+        text-decoration: none;
     }
 
     .botao-principal:hover{
@@ -42,6 +52,7 @@
         color:#3E3E42 !important; 
         border-radius: 12px;
         border: 1px solid #3E3E42;
+        text-decoration: none;
     }
 
     .botao-atencao{
@@ -49,14 +60,23 @@
         color: #3E3E42 !important; 
         border-radius: 12px;
         width: 100%;
+        text-decoration: none;
     }
 
     .botao-atencao:hover{
-        background-color: #3E3E42;
-        color: #FFDC00 !important; 
+        background-color: #FFFFFF;
+        color: #3E3E42!important; 
         border-radius: 12px;
+        text-decoration: none;
     }
 
+    .aumentar {
+      transition: all 0.3s ease;
+    }
+
+    .aumentar:hover {
+      transform: scale(1.02);
+    }
 /*CORES TEXTO*/
  .preto{
     color: #3E3E42;
@@ -138,23 +158,23 @@
 
 /*PROPORÇÃO TIPOGRAFIA*/
     h1{
-        font-size: 2.5rem;
+        font-size: 1.9rem;
     }
 
     h2{
-        font-size: 2rem;
-    }
-
-    h3{
         font-size: 1.7rem;
     }
 
-    h4{
+    h3{
         font-size: 1.3rem;
     }
 
-    p{
+    h4{
         font-size: 1.15rem;
+    }
+
+    p{
+        font-size: 1rem;
     }
 
     small{

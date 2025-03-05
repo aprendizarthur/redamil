@@ -11,9 +11,9 @@ include('functions.php');
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!--TÍTULO/ÍCONE/DESCRIÇÃO DA PÁGINA/COR TEMA NAVEGADOR-->
-    <title>Redamil - Enriqueça a sua redação do ENEM!</title>
+    <title>Redamil - Temas</title>
     <link rel="icon" type="image/x-icon" href="images/assets/icon.ico">
-    <meta name="description" content="Redamil: Repertórios gratuitos para redação do ENEM, temas para praticar, argumentos e redações nota 1000 comentadas. Domine a escrita do ENEM agora!">
+    <meta name="description" content="Pratique redação com temas atuais para o ENEM e textos de apoio exclusivos. Prepare-se para a prova com confiança!">
     <meta name="theme-color" content="#3E3E42">
     
 <!--BOOTSTRAP CSS-->
@@ -39,36 +39,15 @@ include('functions.php');
 
         <!--ABERTURA MAIN-->
         <main class="mb-3">
-        <!--ABERTURA SESSÃO COM CTA E NAVEGAÇÃO CONTEÚDO-->
+        <!--ABERTURA SESSÃO-->
             <div class="container box">
-                <section id="cta-nav">
+                <section id="">
                     <div class="row d-flex p-2">
-                        <div class="col-12 col-lg-6 my-1 p-4 text-center cta-index d-flex align-items-center justify-content-center">
-                            <h1 class="d-block d-mb-none poppins-semibold text-light" style="font-size: 1.7rem">Domine a redação do ENEM com materiais completos e grátis!</h1>
-                            <h1 class="d-none d-mb-block poppins-semibold text-light">Domine a redação do ENEM com materiais completos e grátis!</h1>
                         
-                            <a href="trilha.php" class="d-block botao-atencao poppins-semibold mt-3 p-2 aumentar"><i class="fa-solid fa-list-check mr-2" style="color: #3E3E42"></i>Trilha de aprendizado</a>
-                        </div>
-                        <div class="col-12 col-lg-6 my-1 text-center d-flex">
-                            <div class="row">
-                                <div class="col-12 col-md-6 my-1 col-lg-12">
-                                    <a href="argumentos.php" class="d-block botao-principal poppins-semibold p-2 aumentar"><i class="fa-solid fa-quote-left fa-lg mr-2" style="color: #ffffff;"></i>Argumentos</a>
-                                </div>
-                                <div class="col-12 col-md-6 my-1 col-lg-12">
-                                    <a href="redacoes.php" class="d-block botao-principal poppins-semibold p-2 aumentar"><i class="fa-solid fa-file-invoice fa-lg mr-2" style="color: #ffffff;"></i>Redações</a>
-                                </div>
-                                <div class="col-12 col-md-6 my-1 col-lg-12">
-                                    <a href="repertorios.php" class="d-block botao-principal poppins-semibold p-2 aumentar"><i class="fa-solid fa-folder-open fa-lg mr-2" style="color: #ffffff;"></i>Repertórios</a>
-                                </div>
-                                <div class="col-12 col-md-6 my-1 col-lg-12">
-                                    <a href="temas.php" class="d-block botao-principal poppins-semibold p-2 aumentar"><i class="fa-solid fa-lightbulb fa-lg mr-2" style="color: #ffffff;"></i>Temas</a>
-                                </div>    
-                            </div>
-                        </div>
                     </div> 
                 </section>
             </div>
-         <!--FECHAMENTO SESSÃO COM CTA E NAVEGAÇÃO CONTEÚDO-->
+         <!--FECHAMENTO SESSÃO-->
         </main>
         <!--FECHAMENTO MAIN-->    
         
