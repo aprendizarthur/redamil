@@ -11,10 +11,10 @@ include('../functions.php');
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!--TÍTULO/ÍCONE/DESCRIÇÃO DA PÁGINA/COR TEMA NAVEGADOR-->
-    <title>Redamil - Competências</title>
+    <title>Redamil - Argumentos: Mídia</title>
     <link rel="icon" type="image/x-icon" href="images/assets/icon.ico">
-    <meta name="description" content="Entenda as competências do ENEM na redação de forma simples: o que cada uma exige para você mandar bem na prova!">
-    <meta name="theme-color" content="#9B9EF0">
+    <meta name="description" content="Veja argumentos para culpar a mídia em redações do ENEM e use repertórios sobre influência cultural e desinformação para arrasar na sua argumentação">
+    <meta name="theme-color" content="#D071E0">
     
 <!--BOOTSTRAP CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">

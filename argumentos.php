@@ -39,15 +39,46 @@ include('functions.php');
 
         <!--ABERTURA MAIN-->
         <main class="mb-3">
-        <!--ABERTURA SESSÃO-->
-            <div class="container box">
+        <!--ABERTURA SESSÃO COM TIPOS DE ARGUMENTOS-->
+        <div class="container box">
                 <section id="">
                     <div class="row d-flex p-2">
-                        
+                        <div class="col-12 my-2 text-center">
+                            <h1 class="poppins-bold">Argumentos</h1>
+                            <p class="poppins-regular">Aqui se encontram os culpados para as suas teses — um repertório prático para apontar possíveis responsáveis pelos problemas relacionados ao tema da sua redação.</p>
+                        </div>
+
+                        <div class="col-12 col-md-6 my-2 text-center aumentar">
+                            <div class=" bg-governo caixa-etapa p-5">
+                                <a href="argumentos/governo.php" class=" text-light"><h2 class="poppins-semibold">Culpe o Governo</h2></a>
+                                <i class="fa-solid fa-arrow-up-right-from-square fa-sm right inferior-direito" style="color: #ffffff; "></i>    
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 my-2 text-center aumentar">
+                            <div class=" bg-midia caixa-etapa p-5">
+                                <a href="argumentos/midia.php" class="text-light"><h2 class="poppins-semibold">Culpe a Mídia</h2></a>
+                                <i class="fa-solid fa-arrow-up-right-from-square fa-sm right inferior-direito" style="color: #ffffff; "></i>    
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 my-2 text-center aumentar">
+                            <div class=" bg-educacao caixa-etapa p-5">
+                                <a href="argumentos/educacao.php" class=" text-light"><h2 class="poppins-semibold">Culpe a Educação</h2></a>
+                                <i class="fa-solid fa-arrow-up-right-from-square fa-sm right inferior-direito" style="color: #ffffff; "></i>    
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 my-2 text-center aumentar">
+                            <div class=" bg-sociedade caixa-etapa p-5">
+                                <a href="argumentos/sociedade.php" class=" text-light"><h2 class="poppins-semibold">Culpe a Sociedade</h2></a>
+                                <i class="fa-solid fa-arrow-up-right-from-square fa-sm right inferior-direito" style="color: #ffffff; "></i>    
+                            </div>
+                        </div>
                     </div> 
                 </section>
             </div>
-         <!--FECHAMENTO SESSÃO-->
+         <!--FECHAMENTO SESSÃO COM TIPOS DE ARGUMENTOS-->
         </main>
         <!--FECHAMENTO MAIN-->    
         

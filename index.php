@@ -49,7 +49,7 @@ include('functions.php');
                         
                             <a href="trilha.php" class="d-block botao-atencao poppins-semibold mt-3 p-2 aumentar"><i class="fa-solid fa-list-check mr-2" style="color: #3E3E42"></i>Trilha de aprendizado</a>
                         </div>
-                        <div class="col-12 col-lg-6 my-1 text-center d-flex">
+                        <div class="col-12 col-lg-6 my-1 text-center justify-content-center d-flex">
                             <div class="row">
                                 <div class="col-12 col-md-6 my-1 col-lg-12">
                                     <a href="argumentos.php" class="d-block botao-principal poppins-semibold p-2 aumentar"><i class="fa-solid fa-quote-left fa-lg mr-2" style="color: #ffffff;"></i>Argumentos</a>

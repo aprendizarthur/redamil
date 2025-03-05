@@ -39,15 +39,46 @@ include('functions.php');
 
         <!--ABERTURA MAIN-->
         <main class="mb-3">
-        <!--ABERTURA SESSÃO-->
+        <!--ABERTURA SESSÃO COM ETAPAS DA TRILHA-->
             <div class="container box">
                 <section id="">
                     <div class="row d-flex p-2">
-                        
+                        <div class="col-12 my-2 text-center">
+                            <h1 class="poppins-bold">Trilha de aprendizado</h1>
+                            <p class="poppins-regular">Aqui você encontra todas as etapas exploradas na sua trilha de aprendizagem</p>
+                        </div>
+
+                        <div class="col-12 col-md-6 my-2 text-center aumentar">
+                            <div class=" bg-introducao caixa-etapa p-5">
+                                <a href="trilha/introducao.php" class=" text-light"><h2 class="poppins-semibold">Introdução</h2></a>
+                                <i class="fa-solid fa-arrow-up-right-from-square fa-sm right inferior-direito" style="color: #ffffff; "></i>    
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 my-2 text-center aumentar">
+                            <div class=" bg-competencias caixa-etapa p-5">
+                                <a href="trilha/competencias.php" class="text-light"><h2 class="poppins-semibold">Competências</h2></a>
+                                <i class="fa-solid fa-arrow-up-right-from-square fa-sm right inferior-direito" style="color: #ffffff; "></i>    
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 my-2 text-center aumentar">
+                            <div class=" bg-estrutura caixa-etapa p-5">
+                                <a href="trilha/estrutura.php" class=" text-light"><h2 class="poppins-semibold">Estrutura</h2></a>
+                                <i class="fa-solid fa-arrow-up-right-from-square fa-sm right inferior-direito" style="color: #ffffff; "></i>    
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 my-2 text-center aumentar">
+                            <div class=" bg-dicas caixa-etapa p-5">
+                                <a href="trilha/dicas.php" class=" text-light"><h2 class="poppins-semibold">Dicas</h2></a>
+                                <i class="fa-solid fa-arrow-up-right-from-square fa-sm right inferior-direito" style="color: #ffffff; "></i>    
+                            </div>
+                        </div>
                     </div> 
                 </section>
             </div>
-         <!--FECHAMENTO SESSÃO-->
+         <!--FECHAMENTO SESSÃO COM ETAPAS DA TRILHA-->
         </main>
         <!--FECHAMENTO MAIN-->    
         

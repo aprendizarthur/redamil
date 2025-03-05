@@ -1,6 +1,6 @@
 <?php 
 //INCLUINDO ARQUIVO COM FUNCOES PHP
-include('functions.php');
+include('../functions.php');
 ?>
 
 <!DOCTYPE html>
@@ -19,7 +19,7 @@ include('functions.php');
 <!--BOOTSTRAP CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 <!--FOLHA CSS-->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
 <!--FONTAWESOME JS-->
     <script src="https://kit.fontawesome.com/6afdaad939.js" crossorigin="anonymous">      </script>
 <!--BOOTSTRAP ICONS-->
@@ -33,7 +33,7 @@ include('functions.php');
     <div class="container">
         <!--ABERTURA HEADER-->
         <header class="my-3">
-            <?php cabecalho(); ?>    
+            <?php cabecalhotTrilha(); ?>    
         </header>
         <!--FECHAMENTO HEADER-->
 
@@ -53,7 +53,7 @@ include('functions.php');
         
         <!--ABERTURA FOOTER-->
         <footer>
-            <?php rodape(); ?>   
+            <?php rodapeTrilha(); ?>   
         </footer>
         <!--FECHAMENTO FOOTER-->    
     </div>

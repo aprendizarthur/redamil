@@ -24,6 +24,20 @@
       flex-direction: column;
     }
 
+    .caixa-etapa{
+      border-radius: 12px;
+    }
+
+    .caixa-etapa i{
+      position: absolute;
+      bottom: 15px;
+      right: 25px;
+    }
+
+    .caixa-etapa a{
+      text-decoration: none;
+    }
+
 /*BOOTSTRAP*/
     a.nav-link{
       color: #8d8c8e;
@@ -78,83 +92,115 @@
       transform: scale(1.02);
     }
 /*CORES TEXTO*/
- .preto{
-    color: #3E3E42;
- }
+  .preto{
+      color: #3E3E42;
+  }
 
- /*CORES FUNDO*/
- .bg-preto{
-    background-color: #3E3E42;
- }
+  /*CORES FUNDO*/
+  .bg-preto{
+      background-color: #3E3E42;
+  }
+
+  .bg-introducao{
+    background-color: #0090FF;
+  }
+
+  .bg-competencias{
+    background-color: #9B9EF0;
+  }
+
+  .bg-estrutura{
+    background-color: #CF3897;
+  }
+
+  .bg-dicas{
+    background-color: #F76B15;
+  }
+
+  .bg-governo{
+    background-color: #F76B15;
+  }
+
+  .bg-midia{
+    background-color: #D071E0;
+  }
+
+  .bg-educacao{
+    background-color: #2A7E3B;
+  }
+
+  .bg-sociedade{
+    background-color: #C92E43;
+  }
 /*FONTES*/
-.poppins-thin {
-    font-family: "Poppins", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-  }
-  
-  .poppins-extralight {
-    font-family: "Poppins", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-  }
-  
-  .poppins-light {
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-  
-  .poppins-regular {
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .poppins-medium {
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  .poppins-semibold {
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-  }
-  
-  .poppins-bold {
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .poppins-extrabold {
-    font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    font-style: normal;
-  }
+  .poppins-thin {
+      font-family: "Poppins", sans-serif;
+      font-weight: 100;
+      font-style: normal;
+    }
+    
+    .poppins-extralight {
+      font-family: "Poppins", sans-serif;
+      font-weight: 200;
+      font-style: normal;
+    }
+    
+    .poppins-light {
+      font-family: "Poppins", sans-serif;
+      font-weight: 300;
+      font-style: normal;
+    }
+    
+    .poppins-regular {
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+    
+    .poppins-medium {
+      font-family: "Poppins", sans-serif;
+      font-weight: 500;
+      font-style: normal;
+    }
+    
+    .poppins-semibold {
+      font-family: "Poppins", sans-serif;
+      font-weight: 600;
+      font-style: normal;
+    }
+    
+    .poppins-bold {
+      font-family: "Poppins", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+    }
+    
+    .poppins-extrabold {
+      font-family: "Poppins", sans-serif;
+      font-weight: 800;
+      font-style: normal;
+    }
 
-  .inter-regular {
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-  }
+    .inter-regular {
+      font-family: "Inter", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+    }
 
-  .inter-bold {
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 650;
-    font-style: normal;
-  }
+    .inter-bold {
+      font-family: "Inter", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 650;
+      font-style: normal;
+    }
 
-  .inter-extrabold {
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 800;
-    font-style: normal;
-  }
+    .inter-extrabold {
+      font-family: "Inter", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 800;
+      font-style: normal;
+    }
 
 /*PROPORÇÃO TIPOGRAFIA*/
     h1{
