@@ -14,7 +14,7 @@ include('../functions.php');
     <title>Redamil - Argumentos: Sociedade</title>
     <link rel="icon" type="image/x-icon" href="images/assets/icon.ico">
     <meta name="description" content="Explore argumentos para culpar a sociedade em redações do ENEM e use repertórios sobre cultura e comportamento para enriquecer sua argumentação.">
-    <meta name="theme-color" content="#C92E43">
+    <meta name="theme-color" content="#8FB996">
     
 <!--BOOTSTRAP CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">

@@ -14,7 +14,7 @@ include('../functions.php');
     <title>Redamil - Dicas</title>
     <link rel="icon" type="image/x-icon" href="images/assets/icon.ico">
     <meta name="description" content="Dicas práticas para a redação do ENEM: melhore sua escrita, estrutura e argumentos para conquistar a nota máxima!">
-    <meta name="theme-color" content="#F76B15">
+    <meta name="theme-color" content="#90E0EF">
     
 <!--BOOTSTRAP CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">

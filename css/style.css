@@ -13,6 +13,10 @@
         background-color: #d7d6d6;
     }
 
+    html{
+      scroll-behavior: smooth;
+    }
+
 /*CLASSES PARA DIVS*/
     .container.box{
       background-color: #FFFFFF !important;
@@ -26,6 +30,8 @@
 
     .caixa-etapa{
       border-radius: 12px;
+      overflow: auto;
+      flex: 1;
     }
 
     .caixa-etapa i{
@@ -38,7 +44,18 @@
       text-decoration: none;
     }
 
+    .box-dia a{
+      text-decoration: none;
+    }
+
 /*BOOTSTRAP*/
+    .img-fluid{
+      border-top-left-radius: 12px;
+      border-top-right-radius: 12px;
+      width: 100%;
+      height: 15vh;
+    }
+
     a.nav-link{
       color: #8d8c8e;
     }
@@ -49,6 +66,10 @@
 
     .navbar-brand:hover{
       color: #3E3E42;
+    }
+
+    .navbar-brand{
+      font-size: 1.7rem;
     }
 
 /*BOTÕES*/
@@ -66,6 +87,24 @@
         color:#3E3E42 !important; 
         border-radius: 12px;
         border: 1px solid #3E3E42;
+        text-decoration: none;
+    }
+
+    .botao-sucesso{
+        background-color: #2A7E3B;
+        color: #FFFFFF !important; 
+        border-radius: 12px;
+        border: 1px solid #2A7E3B;
+        width: 100%;
+        text-decoration: none;
+    }
+
+    .botao-sucesso:hover{
+        background-color: #FFFFFF;
+        color: #2A7E3B !important; 
+        border-radius: 12px;
+        border: 1px solid #2A7E3B;
+        width: 100%;
         text-decoration: none;
     }
 
@@ -102,35 +141,99 @@
   }
 
   .bg-introducao{
-    background-color: #0090FF;
+    background-color: #2f2f58;
+  }
+
+  .bg-introducao:hover{
+    background-color: #03045E;
   }
 
   .bg-competencias{
-    background-color: #9B9EF0;
+    background-color: #3f8eb8;
+  }
+
+  .bg-competencias:hover{
+    background-color: #0077B6;
   }
 
   .bg-estrutura{
-    background-color: #CF3897;
+    background-color: #50cce5;
+  }
+
+  .bg-estrutura:hover{
+    background-color: #04c3ea;
   }
 
   .bg-dicas{
-    background-color: #F76B15;
+    background-color: #8bd8e7;
+  }
+
+  .bg-dicas:hover{
+    background-color: #90E0EF;
   }
 
   .bg-governo{
-    background-color: #F76B15;
+    background-color: #252e26;
+  }
+
+  .bg-governo:hover{
+    background-color: #111D13;
   }
 
   .bg-midia{
-    background-color: #D071E0;
+    background-color:#187118 ;
+  }
+
+  .bg-midia:hover{
+    background-color: #008000;
   }
 
   .bg-educacao{
-    background-color: #2A7E3B;
+    background-color:#5b7c5d;
+  }
+
+  .bg-educacao:hover{
+    background-color: #415D43;
   }
 
   .bg-sociedade{
-    background-color: #C92E43;
+    background-color: #9bbda0;
+  }
+
+  .bg-sociedade:hover{
+    background-color: #8FB996;
+  }
+
+  .bg-causa{
+    background-color: #672c35;
+  }
+
+  .bg-causa:hover{
+    background-color: #641220;
+  }
+
+  .bg-consequencia{
+    background-color: #853341;
+  }
+
+  .bg-consequencia:hover{
+    background-color: #85182A;
+  }
+
+  .bg-oposicao{
+    background-color: #cb374d;
+  }
+
+  .bg-oposicao:hover{
+    background-color: #C71F37;
+  }
+
+  .bg-conclusao{
+    background-color: #ec7080;
+  }
+
+  .bg-conclusao:hover{
+    background-color: #E01E37;
   }
 /*FONTES*/
   .poppins-thin {

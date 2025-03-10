@@ -14,7 +14,7 @@ include('../functions.php');
     <title>Redamil - Argumentos: Governo</title>
     <link rel="icon" type="image/x-icon" href="images/assets/icon.ico">
     <meta name="description" content="Descubra argumentos prontos para culpar o governo em redações do ENEM e fortaleça sua tese com repertórios sobre problemas sociais e políticas públicas.">
-    <meta name="theme-color" content="#DA811B">
+    <meta name="theme-color" content="#111D13">
     
 <!--BOOTSTRAP CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">

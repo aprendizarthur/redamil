@@ -41,11 +41,11 @@ include('functions.php');
         <main class="mb-3">
         <!--ABERTURA SESSÃO COM ETAPAS DA TRILHA-->
             <div class="container box">
-                <section id="">
+                <section id="trilha">
                     <div class="row d-flex p-2">
                         <div class="col-12 my-2 text-center">
-                            <h1 class="poppins-bold">Trilha de aprendizado</h1>
-                            <p class="poppins-regular">Aqui você encontra todas as etapas exploradas na sua trilha de aprendizagem</p>
+                            <h1 class="poppins-semibold">Trilha <a href="#faq"><i class="fa-solid fa-2xs fa-circle-question ml-1" style="color: #d7d6d6; position: relative; top: 2px"></i></a></h1>
+                            <p class="poppins-regular">Aqui você encontra todas as etapas exploradas na sua trilha de aprendizagem para a redação do ENEM.</p>
                         </div>
 
                         <div class="col-12 col-md-6 my-2 text-center aumentar">

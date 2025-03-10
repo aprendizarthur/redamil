@@ -14,7 +14,7 @@ include('../functions.php');
     <title>Redamil - Introdução</title>
     <link rel="icon" type="image/x-icon" href="images/assets/icon.ico">
     <meta name="description" content="Saiba por que a redação do ENEM é crucial para sua média e faculdade, com dicas sobre tempo de prova e mais!">
-    <meta name="theme-color" content="#090FF2">
+    <meta name="theme-color" content="#03045E">
     
 <!--BOOTSTRAP CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">

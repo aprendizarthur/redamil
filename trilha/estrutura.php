@@ -14,7 +14,7 @@ include('../functions.php');
     <title>Redamil - Estrutura</title>
     <link rel="icon" type="image/x-icon" href="images/assets/icon.ico">
     <meta name="description" content="Aprenda a estrutura da redação do ENEM: etapas detalhadas e análise de uma redação nota 1000 para exemplificar!">
-    <meta name="theme-color" content="#CF3897">
+    <meta name="theme-color" content="#04c3ea">
     
 <!--BOOTSTRAP CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">

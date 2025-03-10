@@ -14,7 +14,7 @@ include('../functions.php');
     <title>Redamil - Argumentos: Mídia</title>
     <link rel="icon" type="image/x-icon" href="images/assets/icon.ico">
     <meta name="description" content="Veja argumentos para culpar a mídia em redações do ENEM e use repertórios sobre influência cultural e desinformação para arrasar na sua argumentação">
-    <meta name="theme-color" content="#D071E0">
+    <meta name="theme-color" content="#008000">
     
 <!--BOOTSTRAP CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
