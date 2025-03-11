@@ -17,6 +17,10 @@
       scroll-behavior: smooth;
     }
 
+    img.img-box{
+      object-fit: cover;
+    }
+
 /*CLASSES PARA DIVS*/
     .container.box{
       background-color: #FFFFFF !important;

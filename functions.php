@@ -1,5 +1,4 @@
 <?php 
-/*
 //CONEXÃO COM O BANCO DE DADOS
 $host = 'localhost';
 $user = 'root';
@@ -8,7 +7,7 @@ $db = 'redamil';
 
 
 $mysqli = new mysqli($host, $user, $pass, $db);
-*/
+
 //FUNÇÃO PARA EXIBIR UM TEMA ALEATORIO NA INDEX
 function temaDia($mysqli){
     //descobrindo o último índice da tabela
@@ -26,15 +25,66 @@ function temaDia($mysqli){
     }
     
     //selecionando o tema e printando ele na tela
-    $sql_code = "SELECT titulo_tema, categoria_tema, credito_imagem, caminho_imagem FROM temas WHERE id_tema = $indiceAleatorio";
+    $sql_code = "SELECT titulo, imagem, link FROM temas WHERE id_tema = $indiceAleatorio";
 
     if($resultado = $mysqli->query($sql_code)){
         $dados = $resultado->fetch_assoc();
 
-        echo " Tema : " . $dados['titulo_tema'] . " <br> Categoria : " . $dados['categoria_tema'] . " <br> Imagem :  <img class=\"img-fluid\" src=\"" . $dados['caminho_imagem'] . "\">" ;
+        echo "
+        <div class=\"box-dia aumentar\">
+            <a href=\"".$dados['link']."\"> 
+                <div>
+                    <img class=\"img-fluid img-box overflow\" src=\"".$dados['imagem']."\">
+                </div>
+                <div class=\"bg-preto d-flex align-items-center text-light p-3 text-left\" style=\"position: relative; bottom: 3px; border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; min-height: 13vh;\">
+                    <h4 class=\"poppins-regular d-inline\">".$dados['titulo']."</h4>
+                </div>
+            </a>    
+        </div>
+        ";
 
     } else {
-        //MENSAGEM ERRO---------------------------------------------
+        echo "Erro, tente novamente";
+    }
+}
+
+//FUNÇÃO PARA EXIBIR UM REPERTÓRIO ALEATORIO NA INDEX
+function repertorioDia($mysqli){
+    //descobrindo o último índice da tabela
+    $sql_code = "SELECT COUNT(*) AS total FROM repertorios";
+
+    if($resultado = $mysqli->query($sql_code)){
+        $dados = $resultado->fetch_assoc();
+        $totalTemas = (int)$dados['total'];
+
+        //gerando um número aleatório entre 1 e o último índice da tabela
+        $indiceAleatorio = rand(1, $totalTemas);
+
+    } else {
+        echo "Erro, tente novamente";
+    }
+    
+    //selecionando o repertorio e printando ele na tela
+    $sql_code = "SELECT titulo, imagem, link FROM repertorios WHERE id_repertorio = $indiceAleatorio";
+
+    if($resultado = $mysqli->query($sql_code)){
+        $dados = $resultado->fetch_assoc();
+
+        echo "
+        <div class=\"box-dia aumentar\">
+            <a href=\"".$dados['link']."\"> 
+                <div>
+                    <img class=\"img-fluid img-box overflow\" src=\"".$dados['imagem']."\">
+                </div>
+                <div class=\"bg-preto d-flex align-items-center text-light p-3 text-left\" style=\"position: relative; bottom: 3px; border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; min-height: 13vh;\">
+                    <h4 class=\"poppins-regular d-inline\">".$dados['titulo']."</h4>
+                </div>
+            </a>    
+        </div>
+        ";
+
+    } else {
+        echo "Erro, tente novamente";
     }
 }
 
@@ -54,7 +104,7 @@ function cabecalho() {
                                     <a class="nav-link poppins-regular" rel="nofollow" href="argumentos.php">Argumentos</a>
                                 </li>
                                 <li class="nav-item d-md-none d-lg-block text-center mx-2">
-                                    <a class="nav-link poppins-regular" href="redacoes.php">Coesão</a>
+                                    <a class="nav-link poppins-regular" href="elementos.php">Coesão</a>
                                 </li>
                                 <li class="nav-item text-center mx-2">
                                     <a class="nav-link poppins-regular" href="redacoes.php">Redações</a>
@@ -84,7 +134,7 @@ function cabecalho() {
 
 //FUNÇÃO QUE EXIBE O FOOTER
 function rodape(){
-    echo '<div class="row d-flex justify-content-around">
+    echo '<div class="row d-flex justify-content-around mb-3">
                 <div class="col-12 my-2">
                     <nav class="navbar align-items-center">
                         <div class="row d-flex justify-content-between">
@@ -186,7 +236,7 @@ function cabecalhotTrilha() {
 
 //FUNÇÃO QUE EXIBE O FOOTER NAS PÁGINAS DE TRILHA (UM DIRETÓRIO PARA TRÁS NOS LINKS)
 function rodapeTrilha(){
-    echo '<div class="row d-flex justify-content-around">
+    echo '<div class="row d-flex justify-content-around mb-3">
                 <div class="col-12 my-2">
                     <nav class="navbar align-items-center">
                         <div class="row d-flex justify-content-between">

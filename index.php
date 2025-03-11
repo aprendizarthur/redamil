@@ -84,16 +84,7 @@ include('functions.php');
                             <h1 class="poppins-semibold">Tema do dia <a href="#faq-tema"><i class="fa-solid fa-2xs fa-circle-question ml-1" style="color: #d7d6d6; position: relative; top: 2px"></i></a></h1>
                             <p class="poppins-regular">Pratique com um novo tema e seus textos motivadores. </p>
                             
-                            <div class="box-dia aumentar">
-                                <a href="#"> 
-                                    <div>
-                                        <img class="img-fluid" src="images/temas/1.jpg">
-                                    </div>
-                                    <div class="bg-preto d-flex text-light p-3 text-left" style="position: relative; bottom: 3px; border-bottom-left-radius: 12px; border-bottom-right-radius: 12px">
-                                        <h4 class="poppins-regular d-inline">Caminhos para combater a evasão escolar na realidade brasileira</h4>
-                                    </div>
-                                </a>    
-                            </div>
+                            <?php temaDia($mysqli); ?>
                         </div>
                        
                         <div class="col-12 d-md-none">
@@ -104,16 +95,7 @@ include('functions.php');
                             <h1 class="poppins-semibold">Repertório do dia <a href="#faq-repertorio"><i class="fa-solid fa-2xs fa-circle-question ml-1" style="color: #d7d6d6; position: relative; top: 2px"></i></a></h1>
                             <p class="poppins-regular">Enriqueça a sua redação do ENEM com um novo repertório. </p>
 
-                            <div class="box-dia aumentar">
-                                <a href="#"> 
-                                    <div>
-                                        <img class="img-fluid" src="images/repertorios/1.png">
-                                    </div>
-                                    <div class="bg-preto text-light p-3 text-left" style="position: relative; bottom: 3px; border-bottom-left-radius: 12px; border-bottom-right-radius: 12px">
-                                        <h4 class="poppins-regular d-block">John Locke e sua frase defendendo os direitos humanos</h4>
-                                    </div>
-                                </a>    
-                            </div>
+                            <?php repertorioDia($mysqli); ?>
                         </div>
                     </div> 
                 </section>
@@ -161,7 +143,7 @@ include('functions.php');
             </div>
         <!--FECHAMENTO SESSÃO COM ETAPAS DA TRILHA-->  
 
-         <!--ABERTURA SESSÃO COM ARGUMENTOS-->
+        <!--ABERTURA SESSÃO COM ARGUMENTOS-->
             <div class="container box mt-3">
                 <section id="argumentos">
                     <div class="row d-flex p-2">
@@ -207,7 +189,7 @@ include('functions.php');
                 <section id="elementos">
                     <div class="row d-flex p-2">
                         <div class="col-12 my-2 text-center">
-                            <h1 class="poppins-semibold">Elementos Coesão <a href="#faq"><i class="fa-solid fa-2xs fa-circle-question ml-1" style="color: #d7d6d6; position: relative; top: 2px"></i></a></h1>
+                            <h1 class="poppins-semibold">Elementos de Coesão <a href="#faq"><i class="fa-solid fa-2xs fa-circle-question ml-1" style="color: #d7d6d6; position: relative; top: 2px"></i></a></h1>
                             <p class="poppins-regular">Elementos que conectam ideias e fortalecem a argumentação na redação.</p>
                         </div>
 
