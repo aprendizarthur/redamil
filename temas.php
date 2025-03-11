@@ -77,7 +77,40 @@ include('functions.php');
             </div>
          <!--FECHAMENTO SESSÃO COM CTA E NAVEGAÇÃO CONTEÚDO-->
 
-         <!--FECHAMENTO SESSÃO-->
+         <!--ABERTURA SESSÃO PARA FILTRAR TEMAS-->
+            <div class="container box mt-3">
+                <section id="filtrar-temas">
+                    <div class="row d-flex p-2">
+                        <div class="col-12 my-2 text-center justify-content-center">
+                            
+                            <h1 class="poppins-semibold">Filtrar temas <a href="#faq-tema"><i class="fa-solid fa-2xs fa-circle-question ml-1" style="color: #d7d6d6; position: relative; top: 2px"></i></a></h1>
+                            
+                            <form method="POST" class="mt-3">
+                                <select name="categoria" class="form-select poppins-semibold text-center bg-preto p-2 text-light">
+                                    <option selected value="todos" class="poppins-regular">Todos</option>
+                                    <option value="educacao" class="poppins-regular">Educação</option>
+                                    <option value="meio-ambiente" class="poppins-regular">Meio Ambiente</option>
+                                    <option value="social" class="poppins-regular">Social</option>
+                                    <option value="tecnologia" class="poppins-regular">Tecnologia</option>
+                                </select>
+
+                                <button name="submit" class="mt-2 p-2 poppins-semibold preto botao-sucesso aumentar">Filtrar</button>
+                            </form>
+                        </div>
+                    </div> 
+                </section>
+            </div>
+         <!--FECHAMENTO SESSÃO PARA FILTRAR TEMAS-->
+
+         <!--ABERTURA SESSÃO COM TEMAS FILTRADOS-->
+         <div class="container box mt-3">
+                <section id="filtrar-temas">
+                    <div class="row d-flex px-2 pt-2 pb-3"> 
+                        <?php filtrarTemas($mysqli); ?>
+                    </div> 
+                </section>
+            </div>
+         <!--FECHAMENTO SESSÃO COM TEMAS FILTRADOS-->
         </main>
         <!--FECHAMENTO MAIN-->    
         

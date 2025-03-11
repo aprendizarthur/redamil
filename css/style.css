@@ -17,6 +17,12 @@
       scroll-behavior: smooth;
     }
 
+    select{
+      border: 1px solid #3E3E42;
+      border-radius: 12px;
+      width: 100%;
+    }
+
     img.img-box{
       object-fit: cover;
     }

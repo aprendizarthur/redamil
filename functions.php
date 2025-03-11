@@ -8,6 +8,82 @@ $db = 'redamil';
 
 $mysqli = new mysqli($host, $user, $pass, $db);
 
+//FUNÇÃO PARA FILTRAR TEMAS NA PÁGINA SÓ COM TEMAS
+function filtrarTemas($mysqli){
+
+    //mostra todos os temas, isso quando o usuário não clica no submit
+    if(!isset($_POST['submit'])){
+        $sql_code = "SELECT titulo, imagem, link FROM temas";
+
+        if($resultado = $mysqli->query($sql_code)){
+
+            while($dados = $resultado->fetch_assoc()){
+                echo "
+                <div class=\"col-12 col-md-6 mt-3 box-dia aumentar\">
+                    <a href=\"".$dados['link']."\"> 
+                        <div>
+                            <img class=\"img-fluid img-box overflow\" src=\"".$dados['imagem']."\">
+                        </div>
+                        <div class=\"bg-preto d-flex align-items-center text-light p-3 text-left\" style=\"position: relative; bottom: 3px; border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; min-height: 14vh;\">
+                            <h4 class=\"poppins-regular d-inline\">".$dados['titulo']."</h4>
+                        </div>
+                    </a>    
+                 </div>
+                ";
+            }
+        } 
+    }
+
+    //após o usuário selecionar a categoria, pega do server e filtra 
+    if(($_SERVER['REQUEST_METHOD'] === 'POST') && isset($_POST['submit'])){
+        //pegando categoria do post
+        $categoria = $mysqli->real_escape_string($_POST['categoria']); 
+
+        if($categoria === "todos"){
+            $sql_code = "SELECT titulo, imagem, link FROM temas";
+
+            if($resultado = $mysqli->query($sql_code)){
+
+                while($dados = $resultado->fetch_assoc()){
+                    echo "
+                    <div class=\"col-12 col-md-6 mt-3 box-dia aumentar\">
+                        <a href=\"".$dados['link']."\"> 
+                            <div>
+                                <img class=\"img-fluid img-box overflow\" src=\"".$dados['imagem']."\">
+                            </div>
+                            <div class=\"bg-preto d-flex align-items-center text-light p-3 text-left\" style=\"position: relative; bottom: 3px; border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; min-height: 14vh;\">
+                                <h4 class=\"poppins-regular d-inline\">".$dados['titulo']."</h4>
+                            </div>
+                        </a>    
+                    </div>
+                    ";
+                }
+            } 
+        } else {
+
+            $sql_code = "SELECT titulo, imagem, link FROM temas WHERE categoria = '$categoria'";
+
+            if($resultado = $mysqli->query($sql_code)){
+
+                while($dados = $resultado->fetch_assoc()){
+                    echo "
+                    <div class=\"col-12 col-md-6 mt-3 box-dia aumentar\">
+                        <a href=\"".$dados['link']."\"> 
+                            <div>
+                                <img class=\"img-fluid img-box overflow\" src=\"".$dados['imagem']."\">
+                            </div>
+                            <div class=\"bg-preto d-flex align-items-center text-light p-3 text-left\" style=\"position: relative; bottom: 3px; border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; min-height: 14vh;\">
+                                <h4 class=\"poppins-regular d-inline\">".$dados['titulo']."</h4>
+                            </div>
+                        </a>    
+                    </div>
+                    ";
+                }
+            }    
+        } 
+    }  
+}
+
 //FUNÇÃO PARA EXIBIR UM TEMA ALEATORIO NA INDEX
 function temaDia($mysqli){
     //descobrindo o último índice da tabela
