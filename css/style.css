@@ -17,6 +17,12 @@
       scroll-behavior: smooth;
     }
 
+    details{
+      background-color: #3E3E42;
+      color: white;
+      border-radius: 12px;
+    }
+
     select{
       border: 1px solid #3E3E42;
       border-radius: 12px;
@@ -27,11 +33,39 @@
       object-fit: cover;
     }
 
+    span.introducao-redacao{
+      background-color: #e9efa7;
+    }
+
+    span.desenvolvimento-redacao{
+      background-color: #b2edf9;
+    }
+
+    span.desenvolvimento2-redacao{
+      background-color: #b6eed0;
+    }
+
+    span.conclusao-redacao{
+      background-color: #f2cbf4;
+    }
+
 /*CLASSES PARA DIVS*/
     .container.box{
       background-color: #FFFFFF !important;
       border-radius: 12px;
     }
+
+    .container.box-sumario{
+      background-color: #FFFFFF;
+      color: black;
+      border-radius: 12px;
+    }
+
+    .container.box-sumario a{
+      color: black;
+      text-decoration: underline;
+    }
+
     .cta-index{
       background-color: #2A7E3B;
       border-radius: 12px;

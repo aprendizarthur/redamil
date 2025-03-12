@@ -12,7 +12,7 @@ include('../functions.php');
 
 <!--TÍTULO/ÍCONE/DESCRIÇÃO DA PÁGINA/COR TEMA NAVEGADOR-->
     <title>Redamil - Argumentos: Sociedade</title>
-    <link rel="icon" type="image/x-icon" href="images/assets/icon.ico">
+    <link rel="icon" type="image/x-icon" href="../images/assets/icon.ico">
     <meta name="description" content="Explore argumentos para culpar a sociedade em redações do ENEM e use repertórios sobre cultura e comportamento para enriquecer sua argumentação.">
     <meta name="theme-color" content="#8FB996">
     
@@ -39,15 +39,205 @@ include('../functions.php');
 
         <!--ABERTURA MAIN-->
         <main class="mb-3">
-        <!--ABERTURA SESSÃO-->
+        <!--ABERTURA SESSÃO CABECALHO-->
             <div class="container box">
-                <section id="">
-                    <div class="row d-flex p-2">
-                        
+                <section id="cabecalho-sessão">
+                    <div class="row d-flex p-2 justify-content-center">
+                        <div class="col-12 my-2 text-center">
+                            <div class="caixa-etapa p-5" style="background-color:#8FB996">
+                                <h2 class="poppins-semibold text-light">Sociedade</h2></a> 
+                                <i class="fa-solid fa-down-long fa-lg" style="color: #ffffff;"></i>  
+                            </div>
+                        </div>
                     </div> 
                 </section>
             </div>
-         <!--FECHAMENTO SESSÃO-->
+        <!--FECHAMENTO SESSÃO CABECALHO-->
+
+        <!--ABERTURA SESSÃO SUMARIO-->
+            <div class="container box-sumario mt-3">
+                <section id="sumario-sessao">
+                    <div class="row d-flex p-3 justify-content-center">
+                        <div class="col-12 col-md-6 my-2 text-center">
+                            <h1 class="poppins-semibold mb-3">Sumário <a href="#faq"><i class="fa-solid fa-2xs fa-circle-question ml-1" style="color: #d7d6d6; position: relative; top: 2px"></i></a></h1>
+
+                            <div class="text-left">
+                                <a class="poppins-regular mb-2 d-block" href="1">1. Resumo da etapa</a>
+                                <a class="poppins-regular mb-2 d-block" href="#2">2. A falta de empatia, a corrupção em pequena escala e a violência</a>
+                                <a class="poppins-regular mb-2 d-block" href="#3">3. Omissão e a falta de engajamento cívico</a>
+                                <a class="poppins-regular mb-2 d-block" href="#4">4. Consumo irresponsável e desenfreado</a>
+                                <a class="poppins-regular mb-2 d-block" href="#faq">5. Dúvidas</a>
+                            </div>
+                        </div>
+                    </div> 
+                </section>
+            </div>
+         <!--FECHAMENTO SESSÃO SUMÁRIO-->
+
+         <!--ABERTURA SESSÃO 1-->
+         <div class="container box mt-3">
+                <article id="1">
+                    <div class="row d-flex p-2 justify-content-center">
+                        <div class="col-12 my-2 text-center">
+                            <h1 class="poppins-semibold mb-3">Resumo da etapa</h1>
+
+                            <div class="text-left">
+                                <p class="poppins-regular d-block mb-2"><span class="desenvolvimento2-redacao"><strong>Culpe a sociedade e vincule essa análise ao tema da sua redação para o Enem, abordando questões como sustentabilidade ou cidadania.</strong></span></p>
+                                <p class="poppins-regular d-block md-2">Ao explorar a falta de empatia e o consumo irresponsável, você pode construir argumentos lógicos e coesos (Competência 4), destacando-se na avaliação e aumentando suas possibilidades de alcançar uma excelente pontuação.</p>
+                            </div>
+                        </div>
+                    </div> 
+                </article>
+            </div>
+         <!--FECHAMENTO SESSÃO 1-->
+
+         <!--ABERTURA SESSÃO 2-->
+         <div class="container box mt-3">
+                <article id="2">
+                    <div class="row d-flex p-2 justify-content-center">
+                        <div class="col-12 my-2 text-center">
+                            <h1 class="poppins-semibold mb-3">A falta de empatia, a corrupção em pequena escala e a violência</h1>
+
+                            <div class="text-left">
+                                <p class="poppins-regular d-block mb-2"><span class="desenvolvimento2-redacao"><strong>Têm impacto direto no bem-estar da comunidade.</strong></span></p>
+                                <p class="poppins-regular mb-2">Exemplos práticos:</p>
+
+                                <ul class="poppins-regular">
+                                    <li class="mb-2"><strong>Falta de empatia e intolerância.</strong> Um exemplo seria vizinhos que ignoram as necessidades de idosos na comunidade, gerando isolamento e desrespeito às leis de convivência. </li>
+                                    <li class="mb-2"><strong>Corrupção em pequena escala.</strong> Um cenário real seria motoristas que subornam guardas de trânsito, normalizando a corrupção e afetando o bem-estar coletivo. </li>
+                                    <li class="mb-2"><strong>Violência impactando a comunidade.</strong> Um caso poderia ser brigas frequentes em espaços públicos por falta de respeito, diminuindo a segurança e o bem-estar social.. </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> 
+                </article>
+            </div>
+         <!--FECHAMENTO SESSÃO 2-->
+
+         <!--ABERTURA SESSÃO 3-->
+         <div class="container box mt-3">
+                <article id="3">
+                    <div class="row d-flex p-2 justify-content-center">
+                        <div class="col-12 my-2 text-center">
+                            <h1 class="poppins-semibold mb-3">Omissão e a falta de engajamento cívico</h1>
+
+                            <div class="text-left">
+                                <p class="poppins-regular d-block mb-2"><span class="desenvolvimento2-redacao"><strong>Os cidadãos não se envolvem ativamente na vida política, social e comunitária.</strong></span></p>
+                                <p class="poppins-regular mb-2">Exemplo prático:</p>
+
+                                <ul class="poppins-regular">
+                                    <li class="mb-2"><strong>Omissão e falta de engajamento cívico.</strong> Um caso hipotético poderia ser a apatia de eleitores que não votam nem participam de decisões locais, deixando a política nas mãos de poucos.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> 
+                </article>
+            </div>
+         <!--FECHAMENTO SESSÃO 3-->
+
+         <!--ABERTURA SESSÃO 4-->
+         <div class="container box mt-3">
+                <article id="4">
+                    <div class="row d-flex p-2 justify-content-center">
+                        <div class="col-12 my-2 text-center">
+                            <h1 class="poppins-semibold mb-3">Consumo irresponsável e desenfreado</h1>
+
+                            <div class="text-left">
+                                <p class="poppins-regular d-block mb-2"><span class="desenvolvimento2-redacao"><strong>A sociedade busca padrões de vida insustentáveis e consome recursos de maneira excessiva, sem considerar as consequências ambientais e sociais.</strong></span></p>
+                                <p class="poppins-regular mb-2">Exemplo prático:</p>
+
+                                <ul class="poppins-regular">
+                                    <li class="mb-2"><strong>Consumo irresponsável e insustentável</strong>: Um exemplo seria a compra excessiva de produtos descartáveis, como plásticos de uso único, que poluem rios e impactam o meio ambiente.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> 
+                </article>
+            </div>
+         <!--FECHAMENTO SESSÃO 4-->
+
+         <!--ABERTURA SESSÃO DUVIDAS-->
+         <div class="container box mt-3">
+                <article id="faq">
+                    <div class="row d-flex p-2 justify-content-center">
+                        <div class="col-12 my-2 text-center">
+                            <h1 class="poppins-semibold mb-3">Dúvidas</h1>
+
+                            <details class="mb-2">
+                                <summary class="poppins-semibold p-3 text-left">Como posso praticar para a redação do ENEM?</summary>
+                                <p class="poppins-regular text-dark bg-light text-left p-3">
+                                Você pode praticar para a redação do ENEM usando nosso site! Na aba "Temas", disponibilizamos gratuitamente diversos temas com textos motivadores para você treinar, simulando a prova real.
+                                <br>  <br>
+                                Além disso, oferecemos repertórios de citações para enriquecer seus argumentos e uma lista de elementos de coesão para melhorar sua gramática e tornar o texto mais fluido. Acesse agora e comece a se preparar!
+                                </p>
+                            </details>
+
+                            <details class="my-2">
+                                <summary class="poppins-semibold p-3 text-left">Como posso escolher entre culpar o governo, a mídia, a educação ou a sociedade na minha redação?</summary>
+                                <p class="poppins-regular text-dark bg-light text-left p-3">
+                                Analise os textos de apoio para identificar o foco principal, como desigualdade ou desinformação, e selecione o agente que melhor se conecta ao problema.
+                                <br> <br>
+                                Por exemplo, se o tema for corrupção, culpar o governo pode ser mais relevante. Pratique diferentes abordagens para desenvolver flexibilidade e atender à Competência 2 do Enem, aumentando suas chances de uma nota alta.
+                                </p>
+                            </details>
+
+                            <details class="my-2">
+                                <summary class="poppins-semibold p-3 text-left">Posso misturar culpas, como governo e sociedade, em um único texto?</summary>
+                                <p class="poppins-regular text-dark bg-light text-left p-3">
+                                Sim, você pode misturar culpas, como governo e sociedade, em um único texto, desde que organize bem os argumentos para evitar confusão
+                                <br> <br>
+                                Use a introdução para apresentar a tese geral e os parágrafos de desenvolvimento para dividir as responsabilidades, conectando-as ao tema.
+                                <br> <br>
+                                Isso demonstra habilidade na Competência 4, que avalia coesão textual, e pode destacar sua redação como inovadora, contribuindo para uma pontuação elevada.
+                                </p>
+                            </details>
+
+                            <details class="my-2">
+                                <summary class="poppins-semibold p-3 text-left">Qual é o tamanho ideal da redação do ENEM?</summary>
+                                <p class="poppins-regular text-dark bg-light text-left p-3">
+                                O ideal é escrever entre 20 e 30 linhas. Textos muito curtos (menos de 7 linhas) são zerados, enquanto os mais longos devem ser bem organizados para não perder coerência.
+                                </p>
+                            </details>
+
+                            <details class="my-2">
+                                <summary class="poppins-semibold p-3 text-left">Como evitar erros gramaticais na redação do ENEM?</summary>
+                                <p class="poppins-regular text-dark bg-light text-left p-3">
+                                Revise regras de pontuação, concordância e acentuação antes da prova. Escreva com calma e reserve tempo para reler o texto, corrigindo possíveis deslizes.
+                                </p>
+                            </details>
+
+                            <details class="my-2">
+                                <summary class="poppins-semibold p-3 text-left">É obrigatório citar autores na redação do ENEM?</summary>
+                                <p class="poppins-regular text-dark bg-light text-left p-3">
+                                Não é obrigatório, mas citar autores ou obras relevantes (como filósofos ou livros conhecidos) enriquece o texto e demonstra repertório cultural, o que pode aumentar sua nota.
+                                </p>
+                            </details>
+                        </div>
+                    </div> 
+                </article>
+            </div>
+         <!--FECHAMENTO SESSÃO DUVIDAS-->
+
+         <!--ABERTURA SESSÃO PROXIMA ETAPA-->
+         <div class="container box mt-3">
+                <section id="cabecalho-sessão">
+                    <div class="row d-flex p-2 justify-content-center">
+                    
+                        <div class="col-12 mt-2 text-center">
+                            <h1 class="poppins-semibold">Próxima etapa</h1>
+                            <p class="poppins-regular">Clique e confira redações nota 1000 comentadas para enriquecer o seu repertório.</p>
+                        </div>
+
+                        <div class="col-12 mb-2 text-center aumentar">
+                            <div class="caixa-etapa p-5" style="background-color:rgb(224, 96, 217)">
+                                <a href="../redacoes.php" class="text-light"><h2 class="poppins-semibold">Redações</h2></a>
+                                <i class="fa-solid fa-arrow-up-right-from-square fa-sm right" style="color: #ffffff; "></i>    
+                            </div>
+                        </div>
+                    </div> 
+                </section>
+            </div>
+        <!--FECHAMENTO SESSÃO PROXIMA ETAPA-->
         </main>
         <!--FECHAMENTO MAIN-->    
         

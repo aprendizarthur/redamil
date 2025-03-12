@@ -12,7 +12,7 @@ include('../functions.php');
 
 <!--TÍTULO/ÍCONE/DESCRIÇÃO DA PÁGINA/COR TEMA NAVEGADOR-->
     <title>Redamil - Competências</title>
-    <link rel="icon" type="image/x-icon" href="images/assets/icon.ico">
+    <link rel="icon" type="image/x-icon" href="../images/assets/icon.ico">
     <meta name="description" content="Entenda as competências do ENEM na redação de forma simples: o que cada uma exige para você mandar bem na prova!">
     <meta name="theme-color" content="#0077B6">
     
@@ -39,15 +39,253 @@ include('../functions.php');
 
         <!--ABERTURA MAIN-->
         <main class="mb-3">
-        <!--ABERTURA SESSÃO-->
-            <div class="container box">
-                <section id="">
-                    <div class="row d-flex p-2">
-                        
+        <!--ABERTURA SESSÃO CABECALHO-->
+        <div class="container box">
+                <section id="cabecalho-sessão">
+                    <div class="row d-flex p-2 justify-content-center">
+                        <div class="col-12 my-2 text-center">
+                            <div class="caixa-etapa p-5" style="background-color: #0077B6">
+                                <h2 class="poppins-semibold text-light">Competências</h2></a> 
+                                <i class="fa-solid fa-down-long fa-lg" style="color: #ffffff;"></i>  
+                            </div>
+                        </div>
                     </div> 
                 </section>
             </div>
-         <!--FECHAMENTO SESSÃO-->
+        <!--FECHAMENTO SESSÃO CABECALHO-->
+
+        <!--ABERTURA SESSÃO SUMARIO-->
+            <div class="container box-sumario mt-3">
+                <section id="sumario-sessao">
+                    <div class="row d-flex p-3 justify-content-center">
+                        <div class="col-12 col-md-6 my-2 text-center">
+                            <h1 class="poppins-semibold mb-3">Sumário <a href="#faq"><i class="fa-solid fa-2xs fa-circle-question ml-1" style="color: #d7d6d6; position: relative; top: 2px"></i></a></h1>
+
+                            <div class="text-left">
+                                <a class="poppins-regular mb-2 d-block" href="#sumario-sessao">1. Resumo da etapa</a>
+                                <a class="poppins-regular mb-2 d-block" href="#2">2. Competência 1</a>
+                                <a class="poppins-regular mb-2 d-block" href="#3">3. Competência 2</a>
+                                <a class="poppins-regular mb-2 d-block" href="#4">4. Competência 3</a>
+                                <a class="poppins-regular mb-2 d-block" href="#5">5. Competência 4</a>
+                                <a class="poppins-regular mb-2 d-block" href="#6">5. Competência 5</a>
+                                <a class="poppins-regular mb-2 d-block" href="#7">7. Dedique-se</a>
+                                <a class="poppins-regular mb-2 d-block" href="#faq">8. Dúvidas</a>
+
+                            </div>
+                        </div>
+                    </div> 
+                </section>
+            </div>
+         <!--FECHAMENTO SESSÃO SUMÁRIO-->
+
+         <!--ABERTURA SESSÃO 1-->
+         <div class="container box mt-3">
+                <article id="1">
+                    <div class="row d-flex p-2 justify-content-center">
+                        <div class="col-12 my-2 text-center">
+                            <h1 class="poppins-semibold mb-3">Resumo da etapa</h1>
+
+                            <div class="text-left">
+                                <p class="poppins-regular d-block mb-2">Abaixo, exploramos cada uma das cinco competências, <span class="desenvolvimento-redacao"><strong>com explicações detalhadas para ajudá-lo a se preparar.</strong></span></p>
+                            </div>
+                        </div>
+                    </div> 
+                </article>
+            </div>
+         <!--FECHAMENTO SESSÃO 1-->
+
+         <!--ABERTURA SESSÃO 2-->
+         <div class="container box mt-3">
+                <article id="2">
+                    <div class="row d-flex p-2 justify-content-center">
+                        <div class="col-12 my-2 text-center">
+                            <h1 class="poppins-semibold mb-3">Competência 1</h1>
+
+                            <div class="text-left">
+                                <p class="poppins-regular d-block mb-2"><span class="desenvolvimento-redacao"><strong>Demonstrar domínio da modalidade escrita formal da Língua Portuguesa</strong></span></p>
+                                <p class="poppins-regular mb-2">Essa competência avalia seu domínio da língua portuguesa formal, incluindo gramática, ortografia, pontuação e uso adequado de vocabulário. </p>
+                                <p class="poppins-regular mb-2">Erros graves, como falta de concordância ou uso incorreto de acentos, podem reduzir sua nota. </p>
+                                <p class="poppins-regular mb-2"><span class="desenvolvimento-redacao"><strong>Para se sair bem, revise regras gramaticais e pratique textos com linguagem formal, evitando gírias ou coloquialismos.</strong></span></p>
+                            </div>
+                        </div>
+                    </div> 
+                </article>
+            </div>
+         <!--FECHAMENTO SESSÃO 2-->
+
+         <!--ABERTURA SESSÃO 3-->
+         <div class="container box mt-3">
+                <article id="3">
+                    <div class="row d-flex p-2 justify-content-center">
+                        <div class="col-12 my-2 text-center">
+                            <h1 class="poppins-semibold mb-3">Competência 2</h1>
+
+                            <div class="text-left">
+                                <p class="poppins-regular d-block mb-2"><span class="desenvolvimento-redacao"><strong>Compreender a proposta de redação e aplicar conceitos das várias áreas de conhecimento para desenvolver o tema, dentro dos limites estruturais do texto dissertativo-argumentativo em prosa</strong></span></p>
+                                <p class="poppins-regular mb-2">Aqui, o foco é sua capacidade de entender o tema proposto e usá-lo para criar um texto dissertativo-argumentativo, com introdução, desenvolvimento e conclusão claros.</p>
+                                <p class="poppins-regular mb-2">Você deve aplicar conhecimentos de áreas como história, geografia ou ciências para sustentar seus argumentos. </p>
+                                <p class="poppins-regular mb-2">Fique atento para não fugir do tema, pois isso pode zerar sua redação.</p>
+                            </div>
+                        </div>
+                    </div> 
+                </article>
+            </div>
+         <!--FECHAMENTO SESSÃO 3-->
+
+         <!--ABERTURA SESSÃO 4-->
+         <div class="container box mt-3">
+                <article id="4">
+                    <div class="row d-flex p-2 justify-content-center">
+                        <div class="col-12 my-2 text-center">
+                            <h1 class="poppins-semibold mb-3">Competência 3</h1>
+
+                            <div class="text-left">
+                                <p class="poppins-regular d-block mb-2"><span class="desenvolvimento-redacao"><strong>Selecionar, relacionar, organizar e interpretar informações, fatos, opiniões e argumentos em defesa de um ponto de vista</strong></span></p>
+                                <p class="poppins-regular mb-2">Essa competência analisa como você escolhe, organiza e interpreta dados para defender sua tese. </p>
+                                <p class="poppins-regular mb-2">Seu texto deve apresentar argumentos lógicos, baseados em fatos ou opiniões, e mostrar uma leitura crítica do tema. </p>
+                                <p class="poppins-regular mb-2">Evite generalizações, use exemplos concretos para fortalecer sua argumentação.</p>
+                            </div>
+                        </div>
+                    </div> 
+                </article>
+            </div>
+         <!--FECHAMENTO SESSÃO 4-->
+
+         <!--ABERTURA SESSÃO 5-->
+         <div class="container box mt-3">
+                <article id="5">
+                    <div class="row d-flex p-2 justify-content-center">
+                        <div class="col-12 my-2 text-center">
+                            <h1 class="poppins-semibold mb-3">Competência 4</h1>
+
+                            <div class="text-left">
+                                <p class="poppins-regular d-block mb-2"><span class="desenvolvimento-redacao"><strong>Demonstrar conhecimento dos mecanismos linguísticos necessários para a construção da argumentação</strong></span></p>
+                                <p class="poppins-regular mb-2">Aqui, avalia-se o uso de ferramentas linguísticas, como conectivos (por exemplo, "portanto", "além disso") e pronomes, para garantir coesão e coerência.</p>
+                                <p class="poppins-regular mb-2">Esses elementos ajudam a conectar ideias e tornar seu texto fluido. </p>
+                                <p class="poppins-regular mb-2">Pratique a construção de parágrafos bem ligados para melhorar nessa competência.</p>
+                            </div>
+                        </div>
+                    </div> 
+                </article>
+            </div>
+         <!--FECHAMENTO SESSÃO 5-->
+
+         <!--ABERTURA SESSÃO 6-->
+         <div class="container box mt-3">
+                <article id="6">
+                    <div class="row d-flex p-2 justify-content-center">
+                        <div class="col-12 my-2 text-center">
+                            <h1 class="poppins-semibold mb-3">Competência 5</h1>
+
+                            <div class="text-left">
+                                <p class="poppins-regular d-block mb-2"><span class="desenvolvimento-redacao"><strong>Elaborar proposta de intervenção para o problema abordado, respeitando os direitos humanos</strong></span></p>
+                                <p class="poppins-regular mb-2">Por fim, essa competência exige que você proponha uma solução para o problema discutido, detalhando quem fará a ação, como será feita e por quê, sempre respeitando os direitos humanos.</p>
+                                <p class="poppins-regular mb-2">Sua proposta deve ser viável, específica e alinhada ao tema, evitando soluções genéricas ou que violem princípios éticos.</p>
+                            </div>
+                        </div>
+                    </div> 
+                </article>
+            </div>
+         <!--FECHAMENTO SESSÃO 6-->
+
+         <!--ABERTURA SESSÃO 7-->
+         <div class="container box mt-3">
+                <article id="7">
+                    <div class="row d-flex p-2 justify-content-center">
+                        <div class="col-12 my-2 text-center">
+                            <h1 class="poppins-semibold mb-3">Dedique-se</h1>
+
+                            <div class="text-left">
+                                <p class="poppins-regular d-block mb-2"><span class="desenvolvimento-redacao"><strong>Ao entender e praticar essas competências, você pode melhorar suas habilidades de escrita e aumentar suas chances de tirar uma boa nota na redação do Enem. </strong></span></p>
+                                <p class="poppins-regular mb-2">Lembre-se de buscar feedback e se dedicar consistentemente para alcançar o sucesso.</p>
+                            </div>
+                        </div>
+                    </div> 
+                </article>
+            </div>
+         <!--FECHAMENTO SESSÃO 7-->
+
+         <!--ABERTURA SESSÃO DUVIDAS-->
+         <div class="container box mt-3">
+                <article id="faq">
+                    <div class="row d-flex p-2 justify-content-center">
+                        <div class="col-12 my-2 text-center">
+                            <h1 class="poppins-semibold mb-3">Dúvidas</h1>
+
+                            <details class="mb-2">
+                                <summary class="poppins-semibold p-3 text-left">Como posso praticar para a redação do ENEM?</summary>
+                                <p class="poppins-regular text-dark bg-light text-left p-3">
+                                Você pode praticar para a redação do ENEM usando nosso site! Na aba "Temas", disponibilizamos gratuitamente diversos temas com textos motivadores para você treinar, simulando a prova real.
+                                <br>  <br>
+                                Além disso, oferecemos repertórios de citações para enriquecer seus argumentos e uma lista de elementos de coesão para melhorar sua gramática e tornar o texto mais fluido. Acesse agora e comece a se preparar!
+                                </p>
+                            </details>
+
+                            <details class="my-2">
+                                <summary class="poppins-semibold p-3 text-left">O que acontece se eu escrever uma redação com muitos erros de português?</summary>
+                                <p class="poppins-regular text-dark bg-light text-left p-3">
+                                Escrever uma redação com muitos erros de português pode impactar diretamente sua nota na Competência 1, que avalia o domínio da norma culta.
+                                <br><br>
+                                Para evitar isso, é essencial praticar redação regularmente, estudar gramática básica e revisar seu texto antes de finalizar. Um bom domínio da língua portuguesa é a base para uma redação de sucesso no Enem.
+                                </p>
+                            </details>
+
+                            <details class="my-2">
+                                <summary class="poppins-semibold p-3 text-left">Posso usar exemplos pessoais na redação do ENEM?</summary>
+                                <p class="poppins-regular text-dark bg-light text-left p-3">
+                                Não é recomendado. O ENEM valoriza argumentos baseados em fatos, dados ou referências culturais e históricas, em vez de experiências pessoais, para manter a objetividade.
+                                </p>
+                            </details>
+
+                            <details class="my-2">
+                                <summary class="poppins-semibold p-3 text-left">Como sei se estou fugindo do tema da redação?</summary>
+                                <p class="poppins-regular text-dark bg-light text-left p-3">
+                                Fugir do tema é um dos maiores riscos na redação do Enem e pode zerar sua nota, especialmente na Competência 2. Para evitar isso, leia atentamente a proposta e os textos de apoio, identificando a ideia central.
+                                <br><br>
+                                Antes de começar, faça um rascunho com sua tese e verifique se ela responde diretamente ao que foi pedido.
+                                </p>
+                            </details>
+
+                            <details class="my-2">
+                                <summary class="poppins-semibold p-3 text-left">Como evitar erros gramaticais na redação do ENEM?</summary>
+                                <p class="poppins-regular text-dark bg-light text-left p-3">
+                                Revise regras de pontuação, concordância e acentuação antes da prova. Escreva com calma e reserve tempo para reler o texto, corrigindo possíveis deslizes.
+                                </p>
+                            </details>
+
+                            <details class="my-2">
+                                <summary class="poppins-semibold p-3 text-left">É obrigatório citar autores na redação do ENEM?</summary>
+                                <p class="poppins-regular text-dark bg-light text-left p-3">
+                                Não é obrigatório, mas citar autores ou obras relevantes (como filósofos ou livros conhecidos) enriquece o texto e demonstra repertório cultural, o que pode aumentar sua nota.
+                                </p>
+                            </details>
+                        </div>
+                    </div> 
+                </article>
+            </div>
+         <!--FECHAMENTO SESSÃO DUVIDAS-->
+
+         <!--ABERTURA SESSÃO PROXIMA ETAPA-->
+         <div class="container box mt-3">
+                <section id="cabecalho-sessão">
+                    <div class="row d-flex p-2 justify-content-center">
+                    
+                        <div class="col-12 mt-2 text-center">
+                            <h1 class="poppins-semibold">Próxima etapa</h1>
+                            <p class="poppins-regular">Clique e avançe para a próxima etapa da trilha de aprendizado.</p>
+                        </div>
+
+                        <div class="col-12 mb-2 text-center aumentar">
+                            <div class="caixa-etapa p-5" style="background-color: #04c3ea">
+                                <a href="estrutura.php" class="text-light"><h2 class="poppins-semibold">Estrutura</h2></a>
+                                <i class="fa-solid fa-arrow-up-right-from-square fa-sm right" style="color: #ffffff; "></i>    
+                            </div>
+                        </div>
+
+                    </div> 
+                </section>
+            </div>
+        <!--FECHAMENTO SESSÃO PROXIMA ETAPA-->
         </main>
         <!--FECHAMENTO MAIN-->    
         

@@ -12,7 +12,7 @@ include('../functions.php');
 
 <!--TÍTULO/ÍCONE/DESCRIÇÃO DA PÁGINA/COR TEMA NAVEGADOR-->
     <title>Redamil - Estrutura</title>
-    <link rel="icon" type="image/x-icon" href="images/assets/icon.ico">
+    <link rel="icon" type="image/x-icon" href="../images/assets/icon.ico">
     <meta name="description" content="Aprenda a estrutura da redação do ENEM: etapas detalhadas e análise de uma redação nota 1000 para exemplificar!">
     <meta name="theme-color" content="#04c3ea">
     
@@ -39,15 +39,246 @@ include('../functions.php');
 
         <!--ABERTURA MAIN-->
         <main class="mb-3">
-        <!--ABERTURA SESSÃO-->
+        <!--ABERTURA SESSÃO CABECALHO-->
             <div class="container box">
-                <section id="">
-                    <div class="row d-flex p-2">
-                        
+                <section id="cabecalho-sessão">
+                    <div class="row d-flex p-2 justify-content-center">
+                        <div class="col-12 my-2 text-center">
+                            <div class="caixa-etapa p-5" style="background-color: #04c3ea">
+                                <h2 class="poppins-semibold text-light">Estrutura</h2></a> 
+                                <i class="fa-solid fa-down-long fa-lg" style="color: #ffffff;"></i>  
+                            </div>
+                        </div>
                     </div> 
                 </section>
             </div>
-         <!--FECHAMENTO SESSÃO-->
+        <!--FECHAMENTO SESSÃO CABECALHO-->
+
+        <!--ABERTURA SESSÃO SUMARIO-->
+            <div class="container box-sumario mt-3">
+                <section id="sumario-sessao">
+                    <div class="row d-flex p-3 justify-content-center">
+                        <div class="col-12 col-md-6 my-2 text-center">
+                            <h1 class="poppins-semibold mb-3">Sumário <a href="#faq"><i class="fa-solid fa-2xs fa-circle-question ml-1" style="color: #d7d6d6; position: relative; top: 2px"></i></a></h1>
+
+                            <div class="text-left">
+                                <a class="poppins-regular mb-2 d-block" href="#sumario-sessao">1. Resumo da etapa</a>
+                                <a class="poppins-regular mb-2 d-block" href="#2">2. Estrutura de uma redação nota 1000</a>
+                                <a class="poppins-regular mb-2 d-block" href="#3">3. Introdução</a>
+                                <a class="poppins-regular mb-2 d-block" href="#4">4. Desenvolvimento</a>
+                                <a class="poppins-regular mb-2 d-block" href="#5">5. Conclusão</a>
+                                <a class="poppins-regular mb-2 d-block" href="#6">6. Dedique-se</a>
+                                <a class="poppins-regular mb-2 d-block" href="#faq">7. Dúvidas</a>
+                            </div>
+                        </div>
+                    </div> 
+                </section>
+            </div>
+         <!--FECHAMENTO SESSÃO SUMÁRIO-->
+
+         <!--ABERTURA SESSÃO 1-->
+         <div class="container box mt-3">
+                <article id="1">
+                    <div class="row d-flex p-2 justify-content-center">
+                        <div class="col-12 my-2 text-center">
+                            <h1 class="poppins-semibold mb-3">Resumo da etapa</h1>
+
+                            <div class="text-left">
+                                <p class="poppins-regular d-block mb-2"><span class="desenvolvimento-redacao"><strong>A estrutura padrão, com introdução, desenvolvimento e conclusão, garante clareza e coesão, atendendo às expectativas dos corretores.</strong></span></p>
+                                <p class="poppins-regular d-block mb-2">Esta etapa nos mostra como a introdução apresenta o tema, o desenvolvimento detalha os desafios e propõe soluções, e a conclusão reforça a tese com uma proposta de intervenção.</p>
+                            </div>
+                        </div>
+                    </div> 
+                </article>
+            </div>
+         <!--FECHAMENTO SESSÃO 1-->
+
+         <!--ABERTURA SESSÃO 2-->
+         <div class="container box mt-3">
+                <article id="2">
+                    <div class="row d-flex p-2 justify-content-center">
+                        <div class="col-12 my-2 text-center">
+                            <h1 class="poppins-semibold mb-3">Estrutura de uma redação nota 1000</h1>
+
+                            <div class="text-left">
+                                <p class="poppins-regular d-block mb-2">Abaixo, apresentamos uma redação nota 1000 do Enem, <span class="desenvolvimento-redacao"><strong>de Lara Vilela com o tema " A necessidade do diálogo para a construção de uma sociedade justa e igualitária"</strong></span>, marcando as etapas da estrutura.</p>
+                            </div>
+                        </div>
+                    </div> 
+                </article>
+            </div>
+         <!--FECHAMENTO SESSÃO 2-->
+
+         <!--ABERTURA SESSÃO 3-->
+         <div class="container box mt-3">
+                <article id="3">
+                    <div class="row d-flex p-2 justify-content-center">
+                        <div class="col-12 my-2 text-center">
+                            <h1 class="poppins-semibold mb-3">Introdução</h1>
+
+                            <div class="text-left">
+                                <p class="poppins-regular d-block mb-2"><span class="introducao-redacao">Na Grécia Antiga, a Filosofia surgiu como uma forma de questionamento acerca das explicações incoerentes sobre a realidade. Nesse momento, pensadores como Sócrates e Aristóteles pautaram o diálogo como parte fundamental da formação do cidadão racional – teorias consagradas e amplamente utilizadas até os dias de hoje. No Brasil contemporâneo, porém, essas relações de reciprocidade mostram-se frágeis, quadro que prejudica tanto o sistema educacional quanto o político-social e que precisa ser urgentemente revertido para conferir bem-estar à população.</span> </p>
+                                <p class="poppins-regular mb-2">Comecemos observando o projeto que a aluna estabeleceu para a sua escrita.</p>
+                                <p class="poppins-regular mb-2"><span class="desenvolvimento-redacao"><strong>Diante do tema, ela optou por discutir os problemas causados pela carência de diálogo em dois âmbitos diferentes:</strong> </p>
+
+                                <ul class="poppins-regular">
+                                    <li class="mb-2">Educacional.</li>
+                                    <li class="mb-2">Político-social</li>
+                                </ul>
+                                <p class="poppins-regular mb-2"><span class="desenvolvimento-redacao"><strong>Essas duas ideias são satisfatoriamente desdobradas e desenvolvidas ao longo dos parágrafos argumentativos e amarradas na conclusão.</strong></span></p>
+
+                            </div>
+                        </div>
+                    </div> 
+                </article>
+            </div>
+         <!--FECHAMENTO SESSÃO 3-->
+
+         <!--ABERTURA SESSÃO 4-->
+         <div class="container box mt-3">
+                <article id="4">
+                    <div class="row d-flex p-2 justify-content-center">
+                        <div class="col-12 my-2 text-center">
+                            <h1 class="poppins-semibold mb-3">Desenvolvimento</h1>
+
+                            <div class="text-left">
+                                <p class="poppins-regular d-block mb-2"><span class="desenvolvimento2-redacao">Em primeira análise, as escolas brasileiras pouco se comunicam com os alunos: a “educação bancária”, caracterizada pelo educador e filósofo Paulo Freire como prejudicial aos estudantes, é a estratégia pedagógica do país. Nela, os professores somente depositam os conhecimentos nos discentes, que não conseguem dialogar sobre a realidade com os docentes e acabam não desenvolvendo pensamento crítico. Dessa maneira, a função primordial da educação – que é a formação individual para a cidadania – fica comprometida, já que a grande maioria aceita passivamente o sistema, desconhecendo, por exemplo, os direitos passíveis de reivindicação constitucional. </span></p>
+                                <p class="poppins-regular d-block mb-2"><span class="desenvolvimento2-redacao">Paralelamente, a comunicação interpessoal também é falha em território nacional. Prova disso foi a grande polarização nas redes sociais durante as eleições, que teve como consequência a disseminação de muitos discursos de ódio pelos indivíduos. Tal contexto representa a “razão instrumental”, empregada para manter a sobreposição de uns sobre os outros. Todavia, isso é danoso para o ser humano e, de acordo com o filósofo alemão Jürgen Habermas, a “razão comunicativa” é a ideal para as relações pessoais. Isso porque ela emerge da ativa exposição de ideias e do diálogo entre as partes, resultando em consenso e minorando as desavenças.  </span></p>
+                                <p class="poppins-regular mb-2"><span class="desenvolvimento-redacao"><strong>Para fundamentar seus argumentos, ela utilizou três repertórios diferentes:</strong></span></p>
+                            
+                                <ul class="poppins-regular">
+                                    <li class="mb-2">Na introdução, houve alusão histórica à ágora grega, espaço de discussões.</li>
+                                    <li class="mb-2">Para discutir a questão da escola, a aluna mobilizou as ideias do educador Paulo Freire no segundo parágrafo;</li>
+                                    <li class="mb-2">No terceiro, para fundamentar a importância do diálogo na política e sociedade, ela utilizou o pensamento de Habermas sobre a ação comunicativa.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> 
+                </article>
+            </div>
+         <!--FECHAMENTO SESSÃO 4-->
+
+         <!--ABERTURA SESSÃO 5-->
+         <div class="container box mt-3">
+                <article id="5">
+                    <div class="row d-flex p-2 justify-content-center">
+                        <div class="col-12 my-2 text-center">
+                            <h1 class="poppins-semibold mb-3">Conclusão</h1>
+
+                            <div class="text-left">
+                                <p class="poppins-regular d-block mb-2"><span class="conclusao-redacao">Depreende-se, portanto, que dialogar é essencial para a harmonia social. Por isso, é imprescindível que as escolas, através do método defendido por Freire, estimulem a conversa entre aluno e professor – processo que deve, inclusive, contar com aulas dinâmicas propagadoras de princípios constitucionais – a fim de desenvolver senso crítico nos estudantes. Ademais, é importante que a mídia, através das redes sociais, evidencie a necessidade de dialogar em vez de enfrentar. Assim, será possível seguir os filósofos gregos e formar cidadãos equiparados e consonantes entre si.</span></p>
+                                <p class="poppins-regular mb-2"><span class="desenvolvimento-redacao"><strong>O último parágrafo do texto cumpre perfeitamente suas funções:</strong></span></p>
+                                
+                                <ul class="poppins-regular">
+                                    <li class="mb-2">Ele retoma a discussão inicial (fechando o texto, inclusive, com nova menção à ágora)</li>
+                                    <li class="mb-2">Oferece uma intervenção completa¸ com agente, ação, meio, detalhamento e efeito (lembre-se de que você só precisa escrever uma proposta de intervenção, desde que ela possua os cinco elementos!).</li>
+
+                                </ul>
+                                <p class="poppins-regular mb-2"><span class="desenvolvimento-redacao"><strong>Em termos de microestrutura, a redação apresenta variados conectores empregados em diferentes momentos (como “porém”, “em primeira análise”, “dessa maneira”, “paralelamente”, “todavia”, “portanto” e “ademais”) e consegue conduzir a temática sem recorrer a excessivas repetições. </strong></span></p>
+                            </div>
+                        </div>
+                    </div> 
+                </article>
+            </div>
+         <!--FECHAMENTO SESSÃO 5-->
+
+         <!--ABERTURA SESSÃO 6-->
+         <div class="container box mt-3">
+                <article id="6">
+                    <div class="row d-flex p-2 justify-content-center">
+                        <div class="col-12 my-2 text-center">
+                            <h1 class="poppins-semibold mb-3">Dedique-se</h1>
+
+                            <div class="text-left">
+                                <p class="poppins-regular d-block mb-2"><span class="desenvolvimento-redacao"><strong>Pratique regularmente com exemplos de redações nota máxima para entender como estruturar seu texto. Lembre-se de buscar feedback e se dedicar consistentemente para alcançar o sucesso no Enem</strong></span></p>
+                            </div>
+                        </div>
+                    </div> 
+                </article>
+            </div>
+         <!--FECHAMENTO SESSÃO 6-->
+
+         <!--ABERTURA SESSÃO DUVIDAS-->
+         <div class="container box mt-3">
+                <article id="faq">
+                    <div class="row d-flex p-2 justify-content-center">
+                        <div class="col-12 my-2 text-center">
+                            <h1 class="poppins-semibold mb-3">Dúvidas</h1>
+
+                            <details class="mb-2">
+                                <summary class="poppins-semibold p-3 text-left">Como posso praticar para a redação do ENEM?</summary>
+                                <p class="poppins-regular text-dark bg-light text-left p-3">
+                                Você pode praticar para a redação do ENEM usando nosso site! Na aba "Temas", disponibilizamos gratuitamente diversos temas com textos motivadores para você treinar, simulando a prova real.
+                                <br>  <br>
+                                Além disso, oferecemos repertórios de citações para enriquecer seus argumentos e uma lista de elementos de coesão para melhorar sua gramática e tornar o texto mais fluido. Acesse agora e comece a se preparar!
+                                </p>
+                            </details>
+
+                            <details class="my-2">
+                                <summary class="poppins-semibold p-3 text-left">O que acontece se eu escrever uma redação com muitos erros de português?</summary>
+                                <p class="poppins-regular text-dark bg-light text-left p-3">
+                                Escrever uma redação com muitos erros de português pode impactar diretamente sua nota na Competência 1, que avalia o domínio da norma culta.
+                                <br><br>
+                                Para evitar isso, é essencial praticar redação regularmente, estudar gramática básica e revisar seu texto antes de finalizar. Um bom domínio da língua portuguesa é a base para uma redação de sucesso no Enem.
+                                </p>
+                            </details>
+
+                            <details class="my-2">
+                                <summary class="poppins-semibold p-3 text-left">Posso usar exemplos pessoais na redação do ENEM?</summary>
+                                <p class="poppins-regular text-dark bg-light text-left p-3">
+                                Não é recomendado. O ENEM valoriza argumentos baseados em fatos, dados ou referências culturais e históricas, em vez de experiências pessoais, para manter a objetividade.
+                                </p>
+                            </details>
+
+                            <details class="my-2">
+                                <summary class="poppins-semibold p-3 text-left">Como sei se estou fugindo do tema da redação?</summary>
+                                <p class="poppins-regular text-dark bg-light text-left p-3">
+                                Fugir do tema é um dos maiores riscos na redação do Enem e pode zerar sua nota, especialmente na Competência 2. Para evitar isso, leia atentamente a proposta e os textos de apoio, identificando a ideia central.
+                                <br><br>
+                                Antes de começar, faça um rascunho com sua tese e verifique se ela responde diretamente ao que foi pedido.
+                                </p>
+                            </details>
+
+                            <details class="my-2">
+                                <summary class="poppins-semibold p-3 text-left">Como evitar erros gramaticais na redação do ENEM?</summary>
+                                <p class="poppins-regular text-dark bg-light text-left p-3">
+                                Revise regras de pontuação, concordância e acentuação antes da prova. Escreva com calma e reserve tempo para reler o texto, corrigindo possíveis deslizes.
+                                </p>
+                            </details>
+
+                            <details class="my-2">
+                                <summary class="poppins-semibold p-3 text-left">É obrigatório citar autores na redação do ENEM?</summary>
+                                <p class="poppins-regular text-dark bg-light text-left p-3">
+                                Não é obrigatório, mas citar autores ou obras relevantes (como filósofos ou livros conhecidos) enriquece o texto e demonstra repertório cultural, o que pode aumentar sua nota.
+                                </p>
+                            </details>
+                        </div>
+                    </div> 
+                </article>
+            </div>
+         <!--FECHAMENTO SESSÃO DUVIDAS-->
+
+         <!--ABERTURA SESSÃO PROXIMA ETAPA-->
+         <div class="container box mt-3">
+                <section id="cabecalho-sessão">
+                    <div class="row d-flex p-2 justify-content-center">
+                    
+                        <div class="col-12 mt-2 text-center">
+                            <h1 class="poppins-semibold">Próxima etapa</h1>
+                            <p class="poppins-regular">Clique e avançe para a próxima etapa da trilha de aprendizado.</p>
+                        </div>
+
+                        <div class="col-12 mb-2 text-center aumentar">
+                            <div class="caixa-etapa p-5" style="background-color: #90E0EF">
+                                <a href="dicas.php" class="text-light"><h2 class="poppins-semibold">Dicas</h2></a>
+                                <i class="fa-solid fa-arrow-up-right-from-square fa-sm right" style="color: #ffffff; "></i>    
+                            </div>
+                        </div>
+
+                    </div> 
+                </section>
+            </div>
+        <!--FECHAMENTO SESSÃO PROXIMA ETAPA-->
         </main>
         <!--FECHAMENTO MAIN-->    
         

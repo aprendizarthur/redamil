@@ -8,6 +8,81 @@ $db = 'redamil';
 
 $mysqli = new mysqli($host, $user, $pass, $db);
 
+//FUNÇÃO PARA FILTRAR REPERTÓRIOS NA PÁGINA SÓ COM REPERTÓRIOS
+function filtrarRepertorios($mysqli){
+    //mostra todos os repertórios, isso quando o usuário não clica no submit
+    if(!isset($_POST['submit'])){
+        $sql_code = "SELECT titulo, imagem, link FROM repertorios";
+
+        if($resultado = $mysqli->query($sql_code)){
+
+            while($dados = $resultado->fetch_assoc()){
+                echo "
+                <div class=\"col-12 col-md-6 mt-3 box-dia aumentar\">
+                    <a href=\"".$dados['link']."\"> 
+                        <div>
+                            <img class=\"img-fluid img-box overflow\" src=\"".$dados['imagem']."\">
+                        </div>
+                        <div class=\"bg-preto d-flex align-items-center text-light p-3 text-left\" style=\"position: relative; bottom: 3px; border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; min-height: 14vh;\">
+                            <h4 class=\"poppins-regular d-inline\">".$dados['titulo']."</h4>
+                        </div>
+                    </a>    
+                 </div>
+                ";
+            }
+        } 
+    }
+
+    //após o usuário selecionar a categoria, pega do server e filtra 
+    if(($_SERVER['REQUEST_METHOD'] === 'POST') && isset($_POST['submit'])){
+        //pegando categoria do post
+        $categoria = $mysqli->real_escape_string($_POST['categoria']); 
+
+        if($categoria === "todos"){
+            $sql_code = "SELECT titulo, imagem, link FROM repertorios";
+
+            if($resultado = $mysqli->query($sql_code)){
+
+                while($dados = $resultado->fetch_assoc()){
+                    echo "
+                    <div class=\"col-12 col-md-6 mt-3 box-dia aumentar\">
+                        <a href=\"".$dados['link']."\"> 
+                            <div>
+                                <img class=\"img-fluid img-box overflow\" src=\"".$dados['imagem']."\">
+                            </div>
+                            <div class=\"bg-preto d-flex align-items-center text-light p-3 text-left\" style=\"position: relative; bottom: 3px; border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; min-height: 14vh;\">
+                                <h4 class=\"poppins-regular d-inline\">".$dados['titulo']."</h4>
+                            </div>
+                        </a>    
+                    </div>
+                    ";
+                }
+            } 
+        } else {
+
+            $sql_code = "SELECT titulo, imagem, link FROM repertorios WHERE categoria = '$categoria'";
+
+            if($resultado = $mysqli->query($sql_code)){
+
+                while($dados = $resultado->fetch_assoc()){
+                    echo "
+                    <div class=\"col-12 col-md-6 mt-3 box-dia aumentar\">
+                        <a href=\"".$dados['link']."\"> 
+                            <div>
+                                <img class=\"img-fluid img-box overflow\" src=\"".$dados['imagem']."\">
+                            </div>
+                            <div class=\"bg-preto d-flex align-items-center text-light p-3 text-left\" style=\"position: relative; bottom: 3px; border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; min-height: 14vh;\">
+                                <h4 class=\"poppins-regular d-inline\">".$dados['titulo']."</h4>
+                            </div>
+                        </a>    
+                    </div>
+                    ";
+                }
+            }    
+        } 
+    }  
+}
+
 //FUNÇÃO PARA FILTRAR TEMAS NA PÁGINA SÓ COM TEMAS
 function filtrarTemas($mysqli){
 
@@ -179,9 +254,6 @@ function cabecalho() {
                                 <li class="nav-item text-center mx-2">
                                     <a class="nav-link poppins-regular" rel="nofollow" href="argumentos.php">Argumentos</a>
                                 </li>
-                                <li class="nav-item d-md-none d-lg-block text-center mx-2">
-                                    <a class="nav-link poppins-regular" href="elementos.php">Coesão</a>
-                                </li>
                                 <li class="nav-item text-center mx-2">
                                     <a class="nav-link poppins-regular" href="redacoes.php">Redações</a>
                                 </li>
@@ -193,7 +265,7 @@ function cabecalho() {
                                 </li>
                                 <li class="nav-item text-center">
                                     <hr class="my-3">
-                                    <a class="nav-link d-md-none my-2 botao-principal poppins-semibold py-2" rel="nofollow" href="trilha.php"><i class="fa-solid fa-list-check mr-2" style="color: #ffffff;"></i>Trilha de aprendizado</a>
+                                    <a class="nav-link d-md-none my-2 botao-principal poppins-semibold py-2" rel="nofollow" href="trilha.php#trilha"><i class="fa-solid fa-list-check mr-2" style="color: #ffffff;"></i>Trilha de aprendizado</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link d-md-none my-2 botao-sucesso poppins-semibold py-2" rel="nofollow" href="https://www.vakinha.com.br/?utm_source=google&utm_medium=cpc&utm_campaign=Vakinha_google_conversao_search_fundo_11_always-on_institucional_home-cpc&utm_content=120558729261&utm_term=vakinha&gad_source=1&gclid=CjwKCAiAiaC-BhBEEiwAjY99qLxNRAJTaXahJbcRTjgZAYMWKhH4W_wga5Zxv6NKnU_OnELKF2H26xoCNFsQAvD_BwE"><i class="fa-solid fa-hand-holding-dollar fa-lg mr-2"></i>Doe para o projeto</a>
@@ -223,9 +295,6 @@ function rodape(){
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link poppins-regular" rel="nofollow" href="argumentos.php">Argumentos</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link poppins-regular" rel="nofollow" href="elementos.php">Elementos de coesão</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link poppins-regular" rel="nofollow" href="redacoes.php">Redações</a>
@@ -281,9 +350,6 @@ function cabecalhotTrilha() {
                                 <li class="nav-item text-center mx-2">
                                     <a class="nav-link poppins-regular" rel="nofollow" href="../argumentos.php">Argumentos</a>
                                 </li>
-                                <li class="nav-item d-md-none d-lg-block text-center mx-2">
-                                    <a class="nav-link poppins-regular" rel="nofollow" href="../elementos.php">Coesão</a>
-                                </li>
                                 <li class="nav-item text-center mx-2">
                                     <a class="nav-link poppins-regular" href="../redacoes.php">Redações</a>
                                 </li>
@@ -301,7 +367,7 @@ function cabecalhotTrilha() {
                                     <a class="nav-link d-md-none my-2 botao-atencao poppins-semibold py-2" rel="nofollow" href="https://www.vakinha.com.br/?utm_source=google&utm_medium=cpc&utm_campaign=Vakinha_google_conversao_search_fundo_11_always-on_institucional_home-cpc&utm_content=120558729261&utm_term=vakinha&gad_source=1&gclid=CjwKCAiAiaC-BhBEEiwAjY99qLxNRAJTaXahJbcRTjgZAYMWKhH4W_wga5Zxv6NKnU_OnELKF2H26xoCNFsQAvD_BwE"><i class="fa-solid fa-hand-holding-dollar fa-lg mr-2"></i>Doe para o projeto</a>
                                 </li>
                                 <li class="nav-item ml-2">
-                                    <a class="nav-link d-none d-md-block botao-principal poppins-semibold py-2 px-3 aumentar" rel="nofollow" href="https://www.vakinha.com.br/?utm_source=google&utm_medium=cpc&utm_campaign=Vakinha_google_conversao_search_fundo_11_always-on_institucional_home-cpc&utm_content=120558729261&utm_term=vakinha&gad_source=1&gclid=CjwKCAiAiaC-BhBEEiwAjY99qLxNRAJTaXahJbcRTjgZAYMWKhH4W_wga5Zxv6NKnU_OnELKF2H26xoCNFsQAvD_BwE"><i class="fa-solid fa-hand-holding-dollar fa-lg"></i></a>
+                                    <a class="nav-link d-none d-md-block botao-sucesso poppins-semibold py-2 px-3 aumentar" rel="nofollow" href="https://www.vakinha.com.br/?utm_source=google&utm_medium=cpc&utm_campaign=Vakinha_google_conversao_search_fundo_11_always-on_institucional_home-cpc&utm_content=120558729261&utm_term=vakinha&gad_source=1&gclid=CjwKCAiAiaC-BhBEEiwAjY99qLxNRAJTaXahJbcRTjgZAYMWKhH4W_wga5Zxv6NKnU_OnELKF2H26xoCNFsQAvD_BwE"><i class="fa-solid fa-hand-holding-dollar fa-lg"></i></a>
                                 </li>
                             </ul>
                         </div>
@@ -325,9 +391,6 @@ function rodapeTrilha(){
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link poppins-regular" rel="nofollow" href="../argumentos.php">Argumentos</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link poppins-regular" rel="nofollow" href="../elementos.php">Elementos de Coesão</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link poppins-regular" rel="nofollow" href="../redacoes.php">Redações</a>
