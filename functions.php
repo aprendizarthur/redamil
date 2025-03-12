@@ -12,7 +12,7 @@ $mysqli = new mysqli($host, $user, $pass, $db);
 function filtrarRepertorios($mysqli){
     //mostra todos os repertórios, isso quando o usuário não clica no submit
     if(!isset($_POST['submit'])){
-        $sql_code = "SELECT titulo, imagem, link FROM repertorios";
+        $sql_code = "SELECT titulo, imagem, link, categoria FROM repertorios";
 
         if($resultado = $mysqli->query($sql_code)){
 
@@ -39,7 +39,7 @@ function filtrarRepertorios($mysqli){
         $categoria = $mysqli->real_escape_string($_POST['categoria']); 
 
         if($categoria === "todos"){
-            $sql_code = "SELECT titulo, imagem, link FROM repertorios";
+            $sql_code = "SELECT titulo, imagem, link, categoria FROM repertorios";
 
             if($resultado = $mysqli->query($sql_code)){
 
@@ -60,7 +60,7 @@ function filtrarRepertorios($mysqli){
             } 
         } else {
 
-            $sql_code = "SELECT titulo, imagem, link FROM repertorios WHERE categoria = '$categoria'";
+            $sql_code = "SELECT titulo, imagem, link, categoria FROM repertorios WHERE categoria = '$categoria'";
 
             if($resultado = $mysqli->query($sql_code)){
 
@@ -88,7 +88,7 @@ function filtrarTemas($mysqli){
 
     //mostra todos os temas, isso quando o usuário não clica no submit
     if(!isset($_POST['submit'])){
-        $sql_code = "SELECT titulo, imagem, link FROM temas";
+        $sql_code = "SELECT titulo, imagem, link, categoria FROM temas";
 
         if($resultado = $mysqli->query($sql_code)){
 
@@ -115,7 +115,7 @@ function filtrarTemas($mysqli){
         $categoria = $mysqli->real_escape_string($_POST['categoria']); 
 
         if($categoria === "todos"){
-            $sql_code = "SELECT titulo, imagem, link FROM temas";
+            $sql_code = "SELECT titulo, imagem, link, categoria FROM temas";
 
             if($resultado = $mysqli->query($sql_code)){
 
@@ -136,7 +136,7 @@ function filtrarTemas($mysqli){
             } 
         } else {
 
-            $sql_code = "SELECT titulo, imagem, link FROM temas WHERE categoria = '$categoria'";
+            $sql_code = "SELECT titulo, imagem, link, categoria FROM temas WHERE categoria = '$categoria'";
 
             if($resultado = $mysqli->query($sql_code)){
 
@@ -176,7 +176,7 @@ function temaDia($mysqli){
     }
     
     //selecionando o tema e printando ele na tela
-    $sql_code = "SELECT titulo, imagem, link FROM temas WHERE id_tema = $indiceAleatorio";
+    $sql_code = "SELECT titulo, imagem, link, categoria FROM temas WHERE id_tema = $indiceAleatorio";
 
     if($resultado = $mysqli->query($sql_code)){
         $dados = $resultado->fetch_assoc();
@@ -216,13 +216,13 @@ function repertorioDia($mysqli){
     }
     
     //selecionando o repertorio e printando ele na tela
-    $sql_code = "SELECT titulo, imagem, link FROM repertorios WHERE id_repertorio = $indiceAleatorio";
+    $sql_code = "SELECT titulo, imagem, link, categoria, id_pagina FROM repertorios WHERE id_repertorio = $indiceAleatorio";
 
     if($resultado = $mysqli->query($sql_code)){
         $dados = $resultado->fetch_assoc();
 
         echo "
-        <div class=\"box-dia aumentar\">
+        <div class=\"box-dia aumentar\" id=\"".$dados['id_pagina']."\">
             <a href=\"".$dados['link']."\"> 
                 <div>
                     <img class=\"img-fluid img-box overflow\" src=\"".$dados['imagem']."\">
@@ -239,6 +239,41 @@ function repertorioDia($mysqli){
     }
 }
 
+//FUNÇÃO QUE EXIBE A SESSÃOD E NAVEGAÇÃO NO MAIN
+function mostrarNavegacao(){
+    echo "
+    <section id=\"cta-nav\">
+                    <div class=\"row d-flex p-2\">
+                        <div class=\"col-12 col-lg-6 my-2 text-center d-flex justify-content-center\">
+                            <div class=\"p-4 cta-index d-flex align-items-center justify-content-center\" style=\"height: 100%;\">
+                                <h1 class=\"d-block d-mb-none poppins-semibold text-light\" style=\"font-size: 1.5rem\">Domine a redação do ENEM com materiais completos e grátis!</h1>
+                                <h1 class=\"d-none d-mb-block poppins-semibold text-light\">Domine a redação do ENEM com materiais completos e grátis!</h1>
+                        
+                                <a href=\"trilha.php#trilha\" class=\"d-block botao-atencao poppins-semibold mt-3 p-2 aumentar\"><i class=\"fa-solid fa-lg fa-list-check mr-2\" style=\"color: #3E3E42\"></i>Trilha de aprendizado</a>  
+                            </div>
+                        </div>
+                        
+                        <div class=\"col-12 col-lg-6 my-2 text-center justify-content-center d-flex\">
+                            <div class=\"row\">
+                                <div class=\"col-12 col-md-6 my-1 col-lg-12\">
+                                    <a href=\"argumentos.php#argumentos\" class=\"d-block botao-principal poppins-semibold p-2 aumentar\"><i class=\"fa-solid fa-quote-left fa-lg mr-2\" style=\"color: #ffffff;\"></i>Argumentos</a>
+                                </div>
+                                <div class=\"col-12 col-md-6 my-1 col-lg-12\">
+                                    <a href=\"redacoes.php#filtrar-redacoes\" class=\"d-block botao-principal poppins-semibold p-2 aumentar\"><i class=\"fa-solid fa-file-invoice fa-lg mr-2\" style=\"color: #ffffff;\"></i>Redações Comentadas</a>
+                                </div>
+                                <div class=\"col-12 col-md-6 my-1 col-lg-12\">
+                                    <a href=\"repertorios.php#filtrar-repertorios\" class=\"d-block botao-principal poppins-semibold p-2 aumentar\"><i class=\"fa-solid fa-folder-open fa-lg mr-2\" style=\"color: #ffffff;\"></i>Repertórios</a>
+                                </div>
+                                <div class=\"col-12 col-md-6 my-1 col-lg-12\">
+                                    <a href=\"temas.php#filtrar-temas\" class=\"d-block botao-principal poppins-semibold p-2 aumentar\"><i class=\"fa-solid fa-lightbulb fa-lg mr-2\" style=\"color: #ffffff;\"></i>Temas</a>
+                                </div>   
+                            </div>
+                        </div>
+                    </div> 
+                </section>
+    ";
+}
+
 //FUNÇÃO QUE EXIBE O HEADER
 function cabecalho() {
     echo '<div class="row d-flex justify-content-center">
@@ -252,20 +287,20 @@ function cabecalho() {
                             <ul class="navbar-nav text-center ml-auto">
                                 <hr class="d-md-none>
                                 <li class="nav-item text-center mx-2">
-                                    <a class="nav-link poppins-regular" rel="nofollow" href="argumentos.php">Argumentos</a>
+                                    <a class="nav-link poppins-regular" rel="nofollow" href="index.php#argumentos">Argumentos</a>
                                 </li>
                                 <li class="nav-item text-center mx-2">
                                     <a class="nav-link poppins-regular" href="redacoes.php">Redações</a>
                                 </li>
                                 <li class="nav-item text-center mx-2">
-                                    <a class="nav-link poppins-regular" rel="nofollow" href="repertorios.php">Repertórios</a>
+                                    <a class="nav-link poppins-regular" rel="nofollow" href="repertorios.php#filtrar-repertorios">Repertórios</a>
                                 </li>
                                 <li class="nav-item text-center mx-2">
-                                    <a class="nav-link poppins-regular" rel="nofollow" href="temas.php">Temas</a>
+                                    <a class="nav-link poppins-regular" rel="nofollow" href="temas.php#filtrar-temas">Temas</a>
                                 </li>
                                 <li class="nav-item text-center">
                                     <hr class="my-3">
-                                    <a class="nav-link d-md-none my-2 botao-principal poppins-semibold py-2" rel="nofollow" href="trilha.php#trilha"><i class="fa-solid fa-list-check mr-2" style="color: #ffffff;"></i>Trilha de aprendizado</a>
+                                    <a class="nav-link d-md-none my-2 botao-principal poppins-semibold py-2" rel="nofollow" href="index.php#trilha"><i class="fa-solid fa-list-check mr-2" style="color: #ffffff;"></i>Trilha de aprendizado</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link d-md-none my-2 botao-sucesso poppins-semibold py-2" rel="nofollow" href="https://www.vakinha.com.br/?utm_source=google&utm_medium=cpc&utm_campaign=Vakinha_google_conversao_search_fundo_11_always-on_institucional_home-cpc&utm_content=120558729261&utm_term=vakinha&gad_source=1&gclid=CjwKCAiAiaC-BhBEEiwAjY99qLxNRAJTaXahJbcRTjgZAYMWKhH4W_wga5Zxv6NKnU_OnELKF2H26xoCNFsQAvD_BwE"><i class="fa-solid fa-hand-holding-dollar fa-lg mr-2"></i>Doe para o projeto</a>
@@ -294,16 +329,16 @@ function rodape(){
                                         <span class="nav-link poppins-semibold preto" href="">Conteúdo</span>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link poppins-regular" rel="nofollow" href="argumentos.php">Argumentos</a>
+                                        <a class="nav-link poppins-regular" rel="nofollow" href="index.php#argumentos">Argumentos</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link poppins-regular" rel="nofollow" href="redacoes.php">Redações</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link poppins-regular" rel="nofollow" href="repertorios.php">Repertórios</a>
+                                        <a class="nav-link poppins-regular" rel="nofollow" href="repertorios.php#filtrar-repertorios">Repertórios</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link poppins-regular" rel="nofollow" href="temas.php">Temas</a>
+                                        <a class="nav-link poppins-regular" rel="nofollow" href="temas.php#filtrar-temas">Temas</a>
                                     </li>
                                 </ul>
                             </div>
@@ -348,20 +383,20 @@ function cabecalhotTrilha() {
                             <ul class="navbar-nav text-center ml-auto">
                                 <hr class="d-md-none>
                                 <li class="nav-item text-center mx-2">
-                                    <a class="nav-link poppins-regular" rel="nofollow" href="../argumentos.php">Argumentos</a>
+                                    <a class="nav-link poppins-regular" rel="nofollow" href="../index.php#argumentos">Argumentos</a>
                                 </li>
                                 <li class="nav-item text-center mx-2">
                                     <a class="nav-link poppins-regular" href="../redacoes.php">Redações</a>
                                 </li>
                                 <li class="nav-item text-center mx-2">
-                                    <a class="nav-link poppins-regular" rel="nofollow" href="../repertorios.php">Repertórios</a>
+                                    <a class="nav-link poppins-regular" rel="nofollow" href="../repertorios.php#filtrar-repertorios">Repertórios</a>
                                 </li>
                                 <li class="nav-item text-center mx-2">
-                                    <a class="nav-link poppins-regular" rel="nofollow" href="../temas.php">Temas</a>
+                                    <a class="nav-link poppins-regular" rel="nofollow" href="../temas.php#filtrar-temas">Temas</a>
                                 </li>
                                 <li class="nav-item text-center">
                                     <hr class="my-3">
-                                    <a class="nav-link d-md-none my-2 botao-principal poppins-semibold py-2" rel="nofollow" href="../trilha.php"><i class="fa-solid fa-list-check mr-2" style="color: #ffffff;"></i>Trilha de aprendizado</a>
+                                    <a class="nav-link d-md-none my-2 botao-principal poppins-semibold py-2" rel="nofollow" href="../index.php#trilha"><i class="fa-solid fa-list-check mr-2" style="color: #ffffff;"></i>Trilha de aprendizado</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link d-md-none my-2 botao-atencao poppins-semibold py-2" rel="nofollow" href="https://www.vakinha.com.br/?utm_source=google&utm_medium=cpc&utm_campaign=Vakinha_google_conversao_search_fundo_11_always-on_institucional_home-cpc&utm_content=120558729261&utm_term=vakinha&gad_source=1&gclid=CjwKCAiAiaC-BhBEEiwAjY99qLxNRAJTaXahJbcRTjgZAYMWKhH4W_wga5Zxv6NKnU_OnELKF2H26xoCNFsQAvD_BwE"><i class="fa-solid fa-hand-holding-dollar fa-lg mr-2"></i>Doe para o projeto</a>
@@ -390,16 +425,16 @@ function rodapeTrilha(){
                                         <span class="nav-link poppins-semibold preto" href="">Conteúdo</span>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link poppins-regular" rel="nofollow" href="../argumentos.php">Argumentos</a>
+                                        <a class="nav-link poppins-regular" rel="nofollow" href="../index.php#argumentos">Argumentos</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link poppins-regular" rel="nofollow" href="../redacoes.php">Redações</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link poppins-regular" rel="nofollow" href="../repertorios.php">Repertórios</a>
+                                        <a class="nav-link poppins-regular" rel="nofollow" href="../repertorios#filtrar-repertorios.php">Repertórios</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link poppins-regular" rel="nofollow" href="../temas.php">Temas</a>
+                                        <a class="nav-link poppins-regular" rel="nofollow" href="../temas.php#filtrar-temas">Temas</a>
                                     </li>
                                 </ul>
                             </div>
