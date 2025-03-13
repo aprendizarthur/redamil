@@ -59,7 +59,7 @@ include('functions.php');
                                     <option selected value="todos" class="poppins-regular">Todos</option>
                                     <option value="Educação" class="poppins-regular">Educação</option>
                                     <option value="Meio Ambiente" class="poppins-regular">Meio Ambiente</option>
-                                    <option value="Soocial" class="poppins-regular">Social</option>
+                                    <option value="Social" class="poppins-regular">Social</option>
                                     <option value="Tecnologia" class="poppins-regular">Tecnologia</option>
                                 </select>
 
