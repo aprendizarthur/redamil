@@ -249,17 +249,17 @@ function mostrarNavegacao(){
                                 <h1 class=\"d-block d-mb-none poppins-semibold text-light\" style=\"font-size: 1.5rem\">Domine a redação do ENEM com materiais completos e grátis!</h1>
                                 <h1 class=\"d-none d-mb-block poppins-semibold text-light\">Domine a redação do ENEM com materiais completos e grátis!</h1>
                         
-                                <a href=\"trilha.php#trilha\" class=\"d-block botao-atencao poppins-semibold mt-3 p-2 aumentar\"><i class=\"fa-solid fa-lg fa-list-check mr-2\" style=\"color: #3E3E42\"></i>Trilha de aprendizado</a>  
+                                <a href=\"index.php#trilha\" class=\"d-block botao-atencao poppins-semibold mt-3 p-2 aumentar\"><i class=\"fa-solid fa-lg fa-list-check mr-2\" style=\"color: #3E3E42\"></i>Trilha de aprendizado</a>  
                             </div>
                         </div>
                         
                         <div class=\"col-12 col-lg-6 my-2 text-center justify-content-center d-flex\">
                             <div class=\"row\">
                                 <div class=\"col-12 col-md-6 my-1 col-lg-12\">
-                                    <a href=\"argumentos.php#argumentos\" class=\"d-block botao-principal poppins-semibold p-2 aumentar\"><i class=\"fa-solid fa-quote-left fa-lg mr-2\" style=\"color: #ffffff;\"></i>Argumentos</a>
+                                    <a href=\"index.php#argumentos\" class=\"d-block botao-principal poppins-semibold p-2 aumentar\"><i class=\"fa-solid fa-quote-left fa-lg mr-2\" style=\"color: #ffffff;\"></i>Argumentos</a>
                                 </div>
                                 <div class=\"col-12 col-md-6 my-1 col-lg-12\">
-                                    <a href=\"redacoes.php#filtrar-redacoes\" class=\"d-block botao-principal poppins-semibold p-2 aumentar\"><i class=\"fa-solid fa-file-invoice fa-lg mr-2\" style=\"color: #ffffff;\"></i>Redações Comentadas</a>
+                                    <a href=\"redacoes.php#redacoes\" class=\"d-block botao-principal poppins-semibold p-2 aumentar\"><i class=\"fa-solid fa-file-invoice fa-lg mr-2\" style=\"color: #ffffff;\"></i>Redações Comentadas</a>
                                 </div>
                                 <div class=\"col-12 col-md-6 my-1 col-lg-12\">
                                     <a href=\"repertorios.php#filtrar-repertorios\" class=\"d-block botao-principal poppins-semibold p-2 aumentar\"><i class=\"fa-solid fa-folder-open fa-lg mr-2\" style=\"color: #ffffff;\"></i>Repertórios</a>

@@ -39,14 +39,137 @@ include('functions.php');
 
         <!--ABERTURA MAIN-->
         <main class="mb-3">
-        <!--ABERTURA SESSÃO-->
-            <!--ABERTURA SESSÃO COM CTA E NAVEGAÇÃO CONTEÚDO-->
+        <!--ABERTURA SESSÃO COM CTA E NAVEGAÇÃO CONTEÚDO-->
             <div class="container box">
                 <?php mostrarNavegacao(); ?>
             </div>
          <!--FECHAMENTO SESSÃO COM CTA E NAVEGAÇÃO CONTEÚDO-->
 
-         <!--FECHAMENTO SESSÃO-->
+         <!--ABERTURA SESSÃO COM REDAÇÕES-->
+         <div class="container box mt-3">
+                <section id="redacoes">
+                    <div class="row d-flex p-2">
+                        <div class="col-12 my-2 text-center">
+                            <h1 class="poppins-semibold">Redações Comentadas <a href="#faq-tema"><i class="fa-solid fa-2xs fa-circle-question ml-1" style="color: #d7d6d6; position: relative; top: 2px"></i></a></h1>
+                            <p class="poppins-regular">Confira redações nota 1000 comentadas. </p>
+                            
+                            <div class="row">
+                                <div class="box-dia col-12 mt-3 col-md-6 aumentar">
+                                    <a href="redacoes-comentadas/armamento-populacao.php"> 
+                                        <div>
+                                            <img class="img-fluid img-box overflow" src="images/redacoes/1.jpg">
+                                        </div>
+                                        <div class="bg-preto d-flex align-items-center text-light p-3 text-left" style="position: relative; bottom: 3px; border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; min-height: 14vh;">
+                                            <h4 class="poppins-regular d-inline">Armamento da população em questão no Brasil: caminhos para garantir maior segurança</h4>
+                                        </div>
+                                    </a>    
+                                </div>
+
+                                <div class="box-dia col-12 mt-3 col-md-6 aumentar">
+                                    <a href="redacoes-comentadas/respeitar-cultura-indigena.php"> 
+                                        <div>
+                                            <img class="img-fluid img-box overflow" src="images/redacoes/2.jpg">
+                                        </div>
+                                        <div class="bg-preto d-flex align-items-center text-light p-3 text-left" style="position: relative; bottom: 3px; border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; min-height: 14vh;">
+                                            <h4 class="poppins-regular d-inline">A importância de respeitar as terras e culturas indígenas brasileiras</h4>
+                                        </div>
+                                    </a>    
+                                </div>
+
+                                <div class="box-dia col-12 mt-3 col-md-6 aumentar">
+                                    <a href="redacoes-comentadas/adocao.php"> 
+                                        <div>
+                                            <img class="img-fluid img-box overflow" src="images/redacoes/3.jpg">
+                                        </div>
+                                        <div class="bg-preto d-flex align-items-center text-light p-3 text-left" style="position: relative; bottom: 3px; border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; min-height: 14vh;">
+                                            <h4 class="poppins-regular d-inline">Adoção: como garantir a todas as crianças o direito a uma família no Brasil</h4>
+                                        </div>
+                                    </a>    
+                                </div>
+
+                                <div class="box-dia col-12 mt-3 col-md-6 aumentar">
+                                    <a href="redacoes-comentadas/gestao-lixo.php"> 
+                                        <div>
+                                            <img class="img-fluid img-box overflow" src="images/redacoes/4.jpg">
+                                        </div>
+                                        <div class="bg-preto d-flex align-items-center text-light p-3 text-left" style="position: relative; bottom: 3px; border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; min-height: 14vh;">
+                                            <h4 class="poppins-regular d-inline">Os desafios na gestão do lixo no Brasil contemporâneo</h4>
+                                        </div>
+                                    </a>    
+                                </div>
+
+                                <div class="box-dia col-12 mt-3 col-md-6 aumentar">
+                                    <a href="redacoes-comentadas/perigo-automedicacao.php"> 
+                                        <div>
+                                            <img class="img-fluid img-box overflow" src="images/redacoes/5.jpg">
+                                        </div>
+                                        <div class="bg-preto d-flex align-items-center text-light p-3 text-left" style="position: relative; bottom: 3px; border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; min-height: 14vh;">
+                                            <h4 class="poppins-regular d-inline">A perigosa cultura de automedicação no Brasil</h4>
+                                        </div>
+                                    </a>    
+                                </div>
+
+                                <div class="box-dia col-12 mt-3 col-md-6 aumentar">
+                                    <a href="redacoes-comentadas/narcicismo-selfie.php"> 
+                                        <div>
+                                            <img class="img-fluid img-box overflow" src="images/redacoes/6.jpg">
+                                        </div>
+                                        <div class="bg-preto d-flex align-items-center text-light p-3 text-left" style="position: relative; bottom: 3px; border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; min-height: 14vh;">
+                                            <h4 class="poppins-regular d-inline">O narcisismo e a cultura das selfies</h4>
+                                        </div>
+                                    </a>    
+                                </div>
+
+                                <div class="box-dia col-12 mt-3 col-md-6 aumentar">
+                                    <a href="redacoes-comentadas/ead.php"> 
+                                        <div>
+                                            <img class="img-fluid img-box overflow" src="images/redacoes/7.jpg">
+                                        </div>
+                                        <div class="bg-preto d-flex align-items-center text-light p-3 text-left" style="position: relative; bottom: 3px; border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; min-height: 14vh;">
+                                            <h4 class="poppins-regular d-inline">O ensino a distância no Brasil: caminhos para expandir a todos o acesso ao conhecimento</h4>
+                                        </div>
+                                    </a>    
+                                </div>
+
+                                <div class="box-dia col-12 mt-3 col-md-6 aumentar">
+                                    <a href="redacoes-comentadas/necessidade-dialogo.php"> 
+                                        <div>
+                                            <img class="img-fluid img-box overflow" src="images/redacoes/8.jpg">
+                                        </div>
+                                        <div class="bg-preto d-flex align-items-center text-light p-3 text-left" style="position: relative; bottom: 3px; border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; min-height: 14vh;">
+                                            <h4 class="poppins-regular d-inline">A necessidade do diálogo para a construção de uma sociedade justa e igualitária</h4>
+                                        </div>
+                                    </a>    
+                                </div>
+
+                                <div class="box-dia col-12 mt-3 col-md-6 aumentar">
+                                    <a href="redacoes-comentadas/valorizar-diversidade.php"> 
+                                        <div>
+                                            <img class="img-fluid img-box overflow" src="images/redacoes/9.jpg">
+                                        </div>
+                                        <div class="bg-preto d-flex align-items-center text-light p-3 text-left" style="position: relative; bottom: 3px; border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; min-height: 14vh;">
+                                            <h4 class="poppins-regular d-inline">A importância de compreender e valorizar a diversidade na formação da identidade brasileira</h4>
+                                        </div>
+                                    </a>    
+                                </div>
+
+                                <div class="box-dia col-12 mt-3 col-md-6 aumentar">
+                                    <a href="redacoes-comentadas/necessidade-dialogo-2.php"> 
+                                        <div>
+                                            <img class="img-fluid img-box overflow" src="images/redacoes/10.jpg">
+                                        </div>
+                                        <div class="bg-preto d-flex align-items-center text-light p-3 text-left" style="position: relative; bottom: 3px; border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; min-height: 14vh;">
+                                            <h4 class="poppins-regular d-inline">A necessidade do diálogo para a construção de uma sociedade justa e igualitária (2)</h4>
+                                        </div>
+                                    </a>    
+                                </div>
+                            </div>  
+                        </div>
+                    </div> 
+                </section>
+            </div>
+         <!--FECHAMENTO SESSÃO COM REDAÇÕES-->
+         
         </main>
         <!--FECHAMENTO MAIN-->    
         

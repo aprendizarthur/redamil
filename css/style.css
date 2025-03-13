@@ -49,6 +49,12 @@
       background-color: #f2cbf4;
     }
 
+    .legenda{
+      height: 25px;
+      width: 25px;
+      border-radius: 12px;
+    }
+
 /*CLASSES PARA DIVS*/
     .container.box{
       background-color: #FFFFFF !important;
