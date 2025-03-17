@@ -39,12 +39,6 @@ include('functions.php');
 
         <!--ABERTURA MAIN-->
         <main class="mb-3">
-        <!--ABERTURA SESSÃO COM CTA E NAVEGAÇÃO CONTEÚDO-->
-            <div class="container box">
-                <?php mostrarNavegacao(); ?>
-            </div>
-         <!--FECHAMENTO SESSÃO COM CTA E NAVEGAÇÃO CONTEÚDO-->
-
          <!--ABERTURA SESSÃO COM REDAÇÕES-->
          <div class="container box mt-3">
                 <section id="redacoes">

@@ -239,7 +239,92 @@ function repertorioDia($mysqli){
     }
 }
 
-//FUNÇÃO QUE EXIBE A SESSÃOD E NAVEGAÇÃO NO MAIN
+//FUNÇÃO PARA EXIBIR DOIS REPERTÓRIOS ALEATORIOS
+function repertoriosRecomendacao($mysqli){
+    //descobrindo o último índice da tabela
+    $sql_code = "SELECT COUNT(*) AS total FROM repertorios";
+
+    if($resultado = $mysqli->query($sql_code)){
+        $dados = $resultado->fetch_assoc();
+        $totalTemas = (int)$dados['total'];
+    } else {
+        echo "Erro, tente novamente";
+    }
+    
+    //selecionando o primeiro repertorio e printando ele na tela
+    
+    //gerando um número aleatório entre 1 e o último índice da tabela
+    $indiceAleatorio1 = rand(1, $totalTemas);
+
+    $sql_code = "SELECT titulo, imagem, link, categoria, id_pagina FROM repertorios WHERE id_repertorio = $indiceAleatorio1";
+
+    if($resultado = $mysqli->query($sql_code)){
+        $dados = $resultado->fetch_assoc();
+
+        //tratando link para a página, tirando o "/repertorios" pois estamos dentro desse diretorio
+        $linkRepertorio = substr($dados['link'], 12);
+
+        echo "
+        <div class=\"col-12 col-md-6 mt-3 box-dia aumentar\" id=\"".$dados['id_pagina']."\">
+            <a href=\"".$linkRepertorio."\"> 
+                <div>
+                    <img class=\"img-fluid img-box overflow\" src=\"../".$dados['imagem']."\">
+                </div>
+                <div class=\"bg-preto d-f lex align-items-center text-light p-3 text-left\" style=\"position: relative; bottom: 3px; border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; min-height: 14vh;\">
+                    <h4 class=\"poppins-regular d-inline\">".$dados['titulo']."</h4>
+                </div>
+            </a>    
+        </div>
+        ";
+
+    } else {
+        echo "Erro, tente novamente";
+    }
+
+    //função recursiva para garantir que os dois indices aleatorios não sejam iguais
+    function garantirDiferenca($indiceAleatorio1, $indiceAleatorio2, $totalTemas){
+        if($indiceAleatorio2 == $indiceAleatorio1){
+            $indiceAleatorio2 = rand(1, $totalTemas);
+
+            return garantirDiferenca($indiceAleatorio1, $indiceAleatorio2, $totalTemas);
+        }
+
+        return $indiceAleatorio2;
+    }
+
+    //selecionando o segundo repertorio e printando ele na tela
+    $indiceAleatorio2 = rand(1, $totalTemas);
+    $indiceAleatorio2 = garantirDiferenca($indiceAleatorio1, $indiceAleatorio2, $totalTemas);
+
+    
+
+    $sql_code = "SELECT titulo, imagem, link, categoria, id_pagina FROM repertorios WHERE id_repertorio = $indiceAleatorio2";
+
+    if($resultado = $mysqli->query($sql_code)){
+        $dados = $resultado->fetch_assoc();
+
+        //tratando link para a página, tirando o "/repertorios" pois estamos dentro desse diretorio
+        $linkRepertorio = substr($dados['link'], 12);
+
+        echo "
+        <div class=\"col-12 col-md-6 mt-3 box-dia aumentar\" id=\"".$dados['id_pagina']."\">
+            <a href=\"".$linkRepertorio."\"> 
+                <div>
+                    <img class=\"img-fluid img-box overflow\" src=\"../".$dados['imagem']."\">
+                </div>
+                <div class=\"bg-preto d-flex align-items-center text-light p-3 text-left\" style=\"position: relative; bottom: 3px; border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; min-height: 14vh;\">
+                    <h4 class=\"poppins-regular d-inline\">".$dados['titulo']."</h4>
+                </div>
+            </a>    
+        </div>
+        ";
+
+    } else {
+        echo "Erro, tente novamente";
+    }
+}
+
+//FUNÇÃO QUE EXIBE A SESSÃO DE NAVEGAÇÃO NO MAIN
 function mostrarNavegacao(){
     echo "
     <section id=\"cta-nav\">
