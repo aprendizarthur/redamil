@@ -50,7 +50,7 @@ include('functions.php');
                 <section id="conteudo-dia">
                     <div class="row d-flex p-2">
                         <div class="col-12 col-md-6 my-2 text-center">
-                            <h1 class="poppins-semibold">Tema do dia <a href="#faq-tema"><i class="fa-solid fa-2xs fa-circle-question ml-1" style="color: #d7d6d6; position: relative; top: 2px"></i></a></h1>
+                            <h1 class="poppins-semibold">Tema do dia <a href="#faq"><i class="fa-solid fa-2xs fa-circle-question ml-1" style="color: #d7d6d6; position: relative; top: 2px"></i></a></h1>
                             <p class="poppins-regular">Clique e pratique com um novo tema e seus textos motivadores. </p>
                             
                             <div class="text-left">
@@ -63,7 +63,7 @@ include('functions.php');
                         </div>
 
                         <div class="col-12 col-md-6 my-2 text-center">
-                            <h1 class="poppins-semibold">Repertório do dia <a href="#faq-repertorio"><i class="fa-solid fa-2xs fa-circle-question ml-1" style="color: #d7d6d6; position: relative; top: 2px"></i></a></h1>
+                            <h1 class="poppins-semibold">Repertório do dia <a href="#faq"><i class="fa-solid fa-2xs fa-circle-question ml-1" style="color: #d7d6d6; position: relative; top: 2px"></i></a></h1>
                             <p class="poppins-regular">Clique e enriqueça a sua redação do ENEM com um novo repertório. </p>
 
                             <div class="text-left">
@@ -121,14 +121,14 @@ include('functions.php');
                 <section id="redacoes">
                     <div class="row d-flex p-2">
                         <div class="col-12 my-2 text-center">
-                            <h1 class="poppins-semibold">Redações Comentadas <a href="#faq-tema"><i class="fa-solid fa-2xs fa-circle-question ml-1" style="color: #d7d6d6; position: relative; top: 2px"></i></a></h1>
+                            <h1 class="poppins-semibold">Redações Comentadas <a href="#faq"><i class="fa-solid fa-2xs fa-circle-question ml-1" style="color: #d7d6d6; position: relative; top: 2px"></i></a></h1>
                             <p class="poppins-regular">Confira redações modelo comentadas. </p>
                             
                             <div class="row">
                                 <div class="box-dia col-12 col-md-6 aumentar">
                                     <a href="redacoes-comentadas/respeitar-cultura-indigena.php"> 
                                         <div>
-                                            <img class="img-fluid img-box overflow" src="images/redacoes/2.jpg">
+                                            <img class="img-fluid img-box overflow" src="images/redacoes/2.webp">
                                         </div>
                                         <div class="bg-preto d-flex align-items-center text-light p-3 text-left" style="position: relative; bottom: 3px; border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; min-height: 14vh;">
                                             <h4 class="poppins-regular d-inline">A importância de respeitar as terras e culturas indígenas brasileiras</h4>
@@ -139,7 +139,7 @@ include('functions.php');
                                 <div class="d-none d-md-flex box-dia col-12 col-md-6 aumentar">
                                     <a href="redacoes-comentadas/adocao.php"> 
                                         <div>
-                                            <img class="img-fluid img-box overflow" src="images/redacoes/3.jpg">
+                                            <img class="img-fluid img-box overflow" src="images/redacoes/3.webp">
                                         </div>
                                         <div class="bg-preto d-flex align-items-center text-light p-3 text-left" style="position: relative; bottom: 3px; border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; min-height: 14vh;">
                                             <h4 class="poppins-regular d-inline">Adoção: como garantir a todas as crianças o direito a uma família no Brasil</h4>
@@ -193,6 +193,95 @@ include('functions.php');
                 </section>
             </div>
          <!--FECHAMENTO SESSÃO COM ARGUMENTOS-->
+
+         <!--ABERTURA SESSÃO DUVIDAS-->
+         <div class="container box mt-3">
+                <article id="faq">
+                    <div class="row d-flex p-2 justify-content-center">
+                        <div class="col-12 my-2 text-center">
+                            <h1 class="poppins-semibold mb-3">Dúvidas</h1>
+
+                            <details class="mb-2">
+                                <summary class="poppins-semibold p-3 text-left">Como posso praticar para a redação do ENEM?</summary>
+                                <p class="poppins-regular text-dark bg-light text-left p-3">
+                                Você pode praticar para a redação do ENEM usando nosso site! Na aba "Temas", disponibilizamos gratuitamente diversos temas com textos motivadores para você treinar, simulando a prova real.
+                                <br>  <br>
+                                Além disso, oferecemos repertórios de citações para enriquecer seus argumentos e uma lista de elementos de coesão para melhorar sua gramática e tornar o texto mais fluido. Acesse agora e comece a se preparar!
+                                </p>
+                            </details>
+
+                            <details class="my-2">
+                                <summary class="poppins-semibold p-3 text-left">Por que é importante entender como a redação do ENEM funciona?</summary>
+                                <p class="poppins-regular text-dark bg-light text-left p-3">
+                                Saber como o texto dissertativo do ENEM é estruturado é o primeiro passo para conquistar uma nota alta, como 900 ou até 1000. A composição padrão – introdução, desenvolvimento e conclusão – aliada aos critérios de correção, como coerência, argumentação e proposta de intervenção, é crucial para atender às exigências dos avaliadores.
+                                <br><br>
+                                Ao dominar as competências da prova, você evita deslizes comuns, organiza suas ideias com clareza e eleva suas chances de sucesso no exame mais decisivo do ano. Estude a fundo e transforme seu desempenho na escrita em um trampolim para a universidade dos seus sonhos!
+                                </p>
+                            </details>
+
+                            <details class="my-2">
+                                <summary class="poppins-semibold p-3 text-left">Por que é importante praticar com temas novos frequentemente?</summary>
+                                <p class="poppins-regular text-dark bg-light text-left p-3">
+                                Treinar a escrita com temas inéditos de forma constante é uma das estratégias mais eficazes para se destacar na prova. A cada prática, você refina sua habilidade de estruturar argumentos, ganha rapidez para organizar ideias e se prepara para a imprevisibilidade dos assuntos, como “obstáculos na educação” ou “questões de inclusão”.
+                                <br><br>
+                                Esse hábito também permite identificar falhas, como repetições ou falta de repertório, tornando você mais confiante e preparado para o dia do exame. Pratique bastante e veja sua pontuação decolar!
+                                </p>
+                            </details>
+
+                            <details class="my-2">
+                                <summary class="poppins-semibold p-3 text-left">Como ler novos repertórios enriquece sua redação e te deixa mais flexível?</summary>
+                                <p class="poppins-regular text-dark bg-light text-left p-3">
+                                Ler novos repertórios culturais, como obras de filósofos, dados históricos ou estudos sociais, enriquece seu texto ao trazer argumentos mais sólidos e originais. Essa bagagem amplia seu leque de referências, permitindo que você aborde temas variados – de saúde pública a desigualdade – com profundidade e criatividade.
+                                <br><br>
+                                Além disso, torna você mais flexível para conectar ideias e adaptar seus conhecimentos a diferentes contextos da prova. Invista na leitura e transforme sua dissertação em um diferencial competitivo!
+                                </p>
+                            </details>
+
+                            <details class="my-2">
+                                <summary class="poppins-semibold p-3 text-left">Como ler redações-modelo ajuda a entender a estrutura do ENEM?</summary>
+                                <p class="poppins-regular text-dark bg-light text-left p-3">
+                                Analisar textos-modelo, como os que tiraram nota 1000, é uma maneira prática de entender a organização esperada no exame: introdução com tese, desenvolvimento com argumentos bem fundamentados e conclusão com proposta de intervenção. Esses exemplos mostram como conectar ideias, usar conectivos e atender às competências avaliadas.
+                                <br><br>
+                                Ao estudar essas dissertações, você assimila padrões de sucesso e aplica essas técnicas nos seus próprios textos, ganhando segurança para a prova. Confira modelos e eleve seu nível de escrita!
+                                </p>
+                            </details>
+
+                            <details class="my-2">
+                                <summary class="poppins-semibold p-3 text-left">De que modo apontar culpados para o problema no texto do ENEM pode aumentar minha versatilidade como escritor?</summary>
+                                <p class="poppins-regular text-dark bg-light text-left p-3">
+                                Usar argumentos para atribuir causas a um problema – como culpar a “falta de políticas públicas” ou o “sistema educacional deficiente” – demonstra domínio analítico e torna seu texto mais dinâmico. Essa abordagem permite explorar diferentes perspectivas, como fatores sociais ou históricos, e adaptar sua argumentação a qualquer tema.
+                                <br><br>
+                                Com isso, você ganha versatilidade para construir dissertações convincentes e alinhadas às exigências do exame. Experimente essa técnica e surpreenda os corretores!
+                                </p>
+                            </details>
+
+                            <details class="my-2">
+                                <summary class="poppins-semibold p-3 text-left">Qual é o segredo para escrever uma proposta de intervenção nota 1000?</summary>
+                                <p class="poppins-regular text-dark bg-light text-left p-3">
+                                Uma proposta de intervenção nota 1000 deve ser clara, viável e conter cinco elementos: agente (quem faz), ação (o que fazer), meio (como fazer), detalhamento (explicação) e efeito (resultado esperado).
+                                <br><br>
+                                Por exemplo, sugerir que “o governo invista em campanhas educativas nas escolas para reduzir a evasão” é específico e respeita os direitos humanos. Estude exemplos de sucesso e pratique para fechar seu texto com chave de ouro na prova!
+                                </p>
+                            </details>
+
+                            <details class="my-2">
+                                <summary class="poppins-semibold p-3 text-left">Como evitar erros comuns na redação do ENEM?</summary>
+                                <p class="poppins-regular text-dark bg-light text-left p-3">
+                                Erros como fugir do tema, repetir ideias ou esquecer a proposta de intervenção são comuns e podem derrubar sua nota. Para evitá-los, planeje seu texto antes de escrever, use repertórios variados e revise tudo ao final. Focar na coesão, com conectivos como “portanto” e “ademais”, também ajuda. Prepare-se com antecedência e garanta uma dissertação impecável no dia da prova!
+                                </p>
+                            </details>
+
+                            <details class="my-2">
+                                <summary class="poppins-semibold p-3 text-left">Por que o planejamento antes de escrever é tão importante para o ENEM?</summary>
+                                <p class="poppins-regular text-dark bg-light text-left p-3">
+                                Planejar seu texto antes de começar a escrever é essencial para organizar ideias, definir a tese e escolher argumentos consistentes. Esse hábito economiza tempo, evita desvios do tema e garante uma estrutura clara, com introdução, desenvolvimento e conclusão bem alinhados.
+                                </p>
+                            </details>
+                        </div>
+                    </div> 
+                </article>
+            </div>
+         <!--FECHAMENTO SESSÃO DUVIDAS-->
         </main>
         <!--FECHAMENTO MAIN-->    
         

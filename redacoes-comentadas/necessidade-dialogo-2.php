@@ -133,6 +133,7 @@ include('../functions.php');
                             <h1 class="poppins-semibold mb-3">Comentários</h1>
 
                             <div class="text-left">
+                                <p class="poppins-semibold d-block mb-2">Introdução</p>
                                 <p class="poppins-regular d-block mb-2">
                                     Comecemos observando o projeto que a aluna estabeleceu para a sua escrita. Diante do 
                                     tema, ela optou por discutir os problemas causados pela carência de diálogo em dois âmbitos 
@@ -141,6 +142,7 @@ include('../functions.php');
                                     amarradas na conclusão.
                                 </p>
 
+                                <p class="poppins-semibold d-block mb-2">Desenvolvimento</p>
                                 <p class="poppins-regular d-block mb-2">
                                     Para fundamentar seus argumentos, ela utilizou três repertórios diferentes: na introdução, 
                                     houve alusão histórica à ágora grega, espaço de discussões; para discutir a questão da escola, 
@@ -149,6 +151,7 @@ include('../functions.php');
                                     Habermas sobre a ação comunicativa.
                                 </p>
 
+                                <p class="poppins-semibold d-block mb-2">Conclusão</p>
                                 <p class="poppins-regular d-block mb-2">
                                     O último parágrafo do texto cumpre perfeitamente suas funções: ele retoma a discussão inicial 
                                     (fechando o texto, inclusive, com nova menção à ágora) e oferece uma intervenção completa¸ 
@@ -156,6 +159,7 @@ include('../functions.php');
                                     proposta de intervenção, desde que ela possua os cinco elementos!).
                                 </p>
 
+                                <p class="poppins-semibold d-block mb-2">Gramática</p>
                                 <p class="poppins-regular d-block mb-2">
                                     Em termos de microestrutura, a redação apresenta variados conectores empregados em 
                                     diferentes momentos (como “porém”, “em primeira análise”, “dessa maneira”, “paralelamente”, 

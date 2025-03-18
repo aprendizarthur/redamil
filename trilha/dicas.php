@@ -272,7 +272,7 @@ include('../functions.php');
 
                         <div class="col-12 mb-2 text-center aumentar">
                             <div class="caixa-etapa p-5" style="background-color: #111D13">
-                                <a href="../argumentos.php#argumentos" class="text-light"><h2 class="poppins-semibold">Argumentos</h2></a>
+                                <a href="../index.php#argumentos" class="text-light"><h2 class="poppins-semibold">Argumentos</h2></a>
                                 <i class="fa-solid fa-arrow-up-right-from-square fa-sm right" style="color: #ffffff; "></i>    
                             </div>
                         </div>

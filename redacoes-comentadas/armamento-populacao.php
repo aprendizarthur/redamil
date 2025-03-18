@@ -134,6 +134,7 @@ include('../functions.php');
                             <h1 class="poppins-semibold mb-3">Comentários</h1>
 
                             <div class="text-left">
+                                <p class="poppins-semibold d-block mb-2">Introdução</p>
                                 <p class="poppins-regular d-block mb-2">
                                     Inicia-se com um projeto claro 
                                     logo no primeiro parágrafo: a aluna se coloca a favor da legalização da posse de armas, a ser 
@@ -141,6 +142,7 @@ include('../functions.php');
                                     parágrafos seguintes, campo e cidade são desdobrados adequadamente.
                                 </p>
 
+                                <p class="poppins-semibold d-block mb-2">Desenvolvimento</p>
                                 <p class="poppins-regular d-block mb-2">
                                     O repertório utilizado é diversificado e aparece em várias partes do texto. Na introdução, há 
                                     referência ao pensamento de Rousseau para contextualizar a discussão em torno da maldade 
@@ -150,6 +152,7 @@ include('../functions.php');
                                     Locke para defender o direito de cada um de proteger a própria vida.
                                 </p>
 
+                                <p class="poppins-semibold d-block mb-2">Conclusão</p>
                                 <p class="poppins-regular d-block mb-2">
                                     A intervenção tem duas propostas que concluem precisamente os problemas do texto: 
                                     a primeira, incompleta, direciona a resolução da posse de armas rural. A segunda, com 
@@ -157,6 +160,7 @@ include('../functions.php');
                                     argumentativo para fechar o texto.
                                 </p>
 
+                                <p class="poppins-semibold d-block mb-2">Gramática</p>
                                 <p class="poppins-regular d-block mb-2">
                                     Em termos de norma culta, o texto cumpre todos os requisitos e não possui nenhum erro. 
                                     Na coesão, há uso substancial de conectores em várias partes da redação (“nesse sentido”, 

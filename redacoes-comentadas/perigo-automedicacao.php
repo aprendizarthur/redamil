@@ -133,6 +133,7 @@ include('../functions.php');
                             <h1 class="poppins-semibold mb-3">Comentários</h1>
 
                             <div class="text-left">
+                                <p class="poppins-semibold d-block mb-2">Introdução</p>
                                 <p class="poppins-regular d-block mb-2">
                                     Temos como projeto a ideia de 
                                     que os seres humanos passaram a fazer uso abusivo de remédios por causa da influência da 
@@ -142,6 +143,7 @@ include('../functions.php');
                                     parágrafo.
                                 </p>
 
+                                <p class="poppins-semibold d-block mb-2">Desenvolvimento</p>
                                 <p class="poppins-regular d-block mb-2">
                                     Os dois pontos levantados são claramente desdobrados e comprovados pelo uso de dois 
                                     repertórios: no segundo parágrafo, um conceito do pensador Noam Chomsky é apresentado 
@@ -150,11 +152,13 @@ include('../functions.php');
                                     uma relação adequada de cuidados com o corpo.
                                 </p>
 
+                                <p class="poppins-semibold d-block mb-2">Conclusão</p>
                                 <p class="poppins-regular d-block mb-2">
                                     Na conclusão, a discussão é retomada e satisfatoriamente encerrada. Há apenas uma 
                                     intervenção, contando com os cinco elementos claramente expostos.
                                 </p>
 
+                                <p class="poppins-semibold d-block mb-2">Gramática</p>
                                 <p class="poppins-regular d-block mb-2">
                                     A norma culta é perfeitamente empregada ao longo do texto, que possui boa diversidade de 
                                     conectores (“nesse contexto”, “entretanto”, “em primeiro plano”, “dentro dessa perspectiva”, 

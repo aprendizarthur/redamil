@@ -133,6 +133,7 @@ include('../functions.php');
                             <h1 class="poppins-semibold mb-3">Comentários</h1>
 
                             <div class="text-left">
+                                <p class="poppins-semibold d-block mb-2">Introdução</p>
                                 <p class="poppins-regular d-block mb-2">
                                     O projeto é muito bem 
                                     anunciado logo no primeiro parágrafo: os autóctones sofrem agressões e desrespeito desde a 
@@ -140,6 +141,7 @@ include('../functions.php');
                                     dos outros textos e aponta claramente o caminho de leitura.
                                 </p>
 
+                                <p class="poppins-semibold d-block mb-2">Desenvolvimento</p>
                                 <p class="poppins-regular d-block mb-2">
                                     O repertório é bem empregado em diversas partes do texto: na introdução, a menção ao 
                                     processo de colonização contextualiza adequadamente o tema. No segundo parágrafo, a aluna 
@@ -149,6 +151,7 @@ include('../functions.php');
                                     direitos dos povos originários no país estava disponível nos textos motivadores.
                                 </p>
 
+                                <p class="poppins-semibold d-block mb-2">Conclusão</p>
                                 <p class="poppins-regular d-block mb-2">
                                     O parágrafo final fecha com clareza a discussão e tem duas propostas, resolvendo os dois 
                                     problemas, uma completa e outra incompleta. A primeira, com cinco elementos, tem, inclusive, 
@@ -156,6 +159,7 @@ include('../functions.php');
                                     segunda tem apenas agente, ação e efeito. 
                                 </p>
 
+                                <p class="poppins-semibold d-block mb-2">Gramática</p>
                                 <p class="poppins-regular d-block mb-2">
                                     A norma culta é adequadamente utilizada ao longo de todo o texto. A conexão é feita com 
                                     uso de diversos conectores (“além disso”, “dentro dessa perspectiva”, “em primeira análise”, 

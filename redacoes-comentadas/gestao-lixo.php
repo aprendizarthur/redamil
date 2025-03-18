@@ -135,12 +135,14 @@ include('../functions.php');
                             <h1 class="poppins-semibold mb-3">Comentários</h1>
 
                             <div class="text-left">
+                                <p class="poppins-semibold d-block mb-2">Introdução</p>    
                                 <p class="poppins-regular d-block mb-2">
                                     A aluna construiu seu projeto em torno dos seguintes 
                                     problemas: o “consumismo” e a “defasagem nas estruturas de descarte”, explicitamente 
                                     expostos na tese. 
                                 </p>
 
+                                <p class="poppins-semibold d-block mb-2">Desenvolvimento</p>
                                 <p class="poppins-regular d-block mb-2">
                                     Há um volume significativo de repertórios que foram mobilizados nesta redação: logo na 
                                     introdução, a contextualização é feita pela alusão à Terceira Revolução Industrial, momento 
@@ -152,12 +154,14 @@ include('../functions.php');
                                     disponíveis nos textos motivadores da proposta.
                                 </p>
 
+                                <p class="poppins-semibold d-block mb-2">Conclusão</p>
                                 <p class="poppins-regular d-block mb-2">
                                     O parágrafo final possui duas intervenções, ambas completas. A primeira resolve, 
                                     especificamente, os problemas de coleta e separação do lixo (com diversos detalhamentos 
                                     articulados). A segunda aponta para uma solução de longo prazo, a educação ambiental.
                                 </p>
 
+                                <p class="poppins-semibold d-block mb-2">Gramática</p>
                                 <p class="poppins-regular d-block mb-2">
                                     Vocabulário, registro e ortografia são muito bem empregados e há abundante uso de 
                                     conectores (“concomitantemente”, “desde então”, “em primeira instância”, “dessa forma”, “como 

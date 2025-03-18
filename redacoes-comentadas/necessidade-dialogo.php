@@ -133,12 +133,14 @@ include('../functions.php');
                             <h1 class="poppins-semibold mb-3">Comentários</h1>
 
                             <div class="text-left">
+                                <p class="poppins-semibold d-block mb-2">Introdução</p>
                                 <p class="poppins-regular d-block mb-2">
                                     O projeto da discussão 
                                     sobre patriotismo consiste em argumentar que os entraves para desenvolver esse sentimento 
                                     são a fraca identificação do brasileiro com o país e a corrupção frequente. 
                                 </p>
 
+                                <p class="poppins-semibold d-block mb-2">Desenvolvimento</p>
                                 <p class="poppins-regular d-block mb-2">
                                     Para fundamentar suas ideias, o aluno recorre ao pensamento de Darcy Ribeiro no segundo parágrafo, argumentando que nossa identidade múltipla não tem 
                                     todas as suas facetas valorizadas, dificultando a identificação. No terceiro parágrafo, ele emprega 
@@ -147,11 +149,13 @@ include('../functions.php');
                                     governo Vargas, então preocupado com a identidade nacional, para contextualizar a discussão.
                                 </p>
 
+                                <p class="poppins-semibold d-block mb-2">Conclusão</p>
                                 <p class="poppins-regular d-block mb-2">
                                     No último parágrafo, há duas intervenções completas que costuram perfeitamente os problemas 
                                     trabalhados ao longo do texto, envolvendo a mídia e a escola como agentes de transformação.
                                 </p>
 
+                                <p class="poppins-semibold d-block mb-2">Gramática</p>
                                 <p class="poppins-regular d-block mb-2">
                                     A linguagem do texto é direta, precisa e bem articulada, sem erros de sintaxe, norma culta 
                                     ou registro. Os conectores foram adequadamente empregados ao longo do texto (como 

@@ -129,6 +129,7 @@ include('../functions.php');
                             <h1 class="poppins-semibold mb-3">Comentários</h1>
 
                             <div class="text-left">
+                                <p class="poppins-semibold d-block mb-2">Introdução</p>
                                 <p class="poppins-regular d-block mb-2">
                                     Temos um tema um pouco mais subjetivo dos que os usualmente 
                                     cobrados pelo Enem, mas igualmente relevante em suas discussões, que tangem a exposição 
@@ -138,6 +139,7 @@ include('../functions.php');
                                     parágrafo e discutidos ao longo do texto.
                                 </p>
 
+                                <p class="poppins-semibold d-block mb-2">Desenvolvimento</p>
                                 <p class="poppins-regular d-block mb-2">
                                     A redação tem diversos repertórios: logo na introdução, a contextualização é feita com a história 
                                     de Narciso, personagem da mitologia grega. Na argumentação, a autora defende que a internet 
@@ -147,6 +149,7 @@ include('../functions.php');
                                     ela ainda apresenta uma ideia do educador Paulo Freire, articulada à intervenção.
                                 </p>
 
+                                <p class="poppins-semibold d-block mb-2">Conclusão</p>
                                 <p class="poppins-regular d-block mb-2">
                                     No último parágrafo, os dois problemas são resolvidos por uma só intervenção, com os cinco 
                                     elementos claros e seis detalhamentos (“no ensino de base”, “como psicólogos”, “tornando
@@ -155,6 +158,7 @@ include('../functions.php');
                                     necessário, mas um número maior também não irá te atrapalhar.
                                 </p>
 
+                                <p class="poppins-semibold d-block mb-2">Gramática</p>
                                 <p class="poppins-regular d-block mb-2">
                                     Registro, gramática e ortografia foram empregados adequadamente e não há repetições viciosas, 
                                     evitadas mais pela organização dos parágrafos do que pelo emprego de itens de retomada.

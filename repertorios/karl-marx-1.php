@@ -45,7 +45,7 @@ include('../functions.php');
                 <article id="repertorio">
                     <div class="row d-flex p-2 justify-content-center">
                         <div class="col-12 my-2">
-                            <img class="img-fluid d-md-none img-box overflow" src="../images/repertorios/marx.jpg" style="border-radius: 12px; height: 20vh;">
+                            <img class="img-fluid d-md-none img-box overflow" src="../images/repertorios/marx.webp" style="border-radius: 12px; height: 20vh;">
                         </div>
                         <div class="col-12 my-2 text-center">
                             <p class="poppins-regular d-none d-md-block  mb-3">Repertório</p>

@@ -133,6 +133,7 @@ include('../functions.php');
                             <h1 class="poppins-semibold mb-3">Comentários</h1>
 
                             <div class="text-left">
+                                <p class="poppins-semibold d-block mb-2">Introdução</p>
                                 <p class="poppins-regular d-block mb-2">
                                     Os temas que tocam a discussão sobre a identidade brasileira tendem a ser difíceis de fazer, seja 
                                     porque a discussão, em si, é complexa, seja porque o aluno sente vontade de expor muitas ideias 
@@ -141,6 +142,7 @@ include('../functions.php');
                                     da valorização da nossa identidade e o papel da escola nessa carência nacional. 
                                 </p>
 
+                                <p class="poppins-semibold d-block mb-2">Desenvolvimento</p>
                                 <p class="poppins-regular d-block mb-2">
                                     Em termos de repertório, temos a apresentação do Modernismo no primeiro parágrafo, época 
                                     de grande valorização nacional, em que a discussão é contextualizada e trazida para os dias 
@@ -149,6 +151,7 @@ include('../functions.php');
                                     do filósofo Kant para apontar o papel fundamental da escola na manutenção dos problemas.
                                 </p>
 
+                                <p class="poppins-semibold d-block mb-2">Conclusão</p>
                                 <p class="poppins-regular d-block mb-2">
                                     A solução proposta no último parágrafo dialoga perfeitamente com o texto: entrega à escola a 
                                     responsabilidade de trabalhar a identidade nacional, principalmente dos grupos definidos como 
@@ -157,6 +160,7 @@ include('../functions.php');
                                     a ideia do Modernismo.
                                 </p>
 
+                                <p class="poppins-semibold d-block mb-2">Gramática</p>
                                 <p class="poppins-regular d-block mb-2">
                                     O texto demonstra pleno domínio do uso da norma culta e de vocabulário de registro formal. 
                                     Há diversos conectores, todos utilizados corretamente (“nesse contexto”, “entretanto”, “em 

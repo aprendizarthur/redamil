@@ -135,6 +135,7 @@ include('../functions.php');
                             <h1 class="poppins-semibold mb-3">Comentários</h1>
 
                             <div class="text-left">
+                                <p class="poppins-semibold d-block mb-2">Introdução</p>
                                 <p class="poppins-regular d-block mb-2">
                                     Temos um projeto claramente explícito no primeiro parágrafo: há pouca 
                                     adesão da população ao ato por “opções por particularidades nas crianças” e “carência de ações do Estado”. 
@@ -143,6 +144,7 @@ include('../functions.php');
                                     nos parágrafos subsequentes.
                                 </p>
 
+                                <p class="poppins-semibold d-block mb-2">Desenvolvimento</p>
                                 <p class="poppins-regular d-block mb-2">
                                     Em termos de argumentação, a aluna emprega apenas dois repertórios socioculturais: a história de 
                                     Roberto Carlos Ramos na introdução e as medidas no Paraná na conclusão. Os dados apresentados no 
@@ -154,6 +156,7 @@ include('../functions.php');
                                     dos adotantes a partir dos dados e, no terceiro, a falta de ações do Estado a partir de repertório pessoal
                                 </p>
 
+                                <p class="poppins-semibold d-block mb-2">Conclusão</p>
                                 <p class="poppins-regular d-block mb-2">
                                     Na conclusão, há duas intervenções articuladas uma à outra (“realizar projetos” e “tomar uma postura 
                                     preventiva e mais cautelosa”) e presença dos cinco elementos fundamentais para uma proposta 
@@ -161,6 +164,7 @@ include('../functions.php');
                                     perfeitamente a linha argumentativa.
                                 </p>
 
+                                <p class="poppins-semibold d-block mb-2">Gramática</p>
                                 <p class="poppins-regular d-block mb-2">
                                     Norma culta e coesão textual estão excelentes, com emprego de conectores diversificados ao longo do 
                                     texto (“porém”, “a partir disso”, “em primeira análise”, “dessa forma”, “ademais”, “com isso”, “desse modo”, 

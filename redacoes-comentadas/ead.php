@@ -129,6 +129,7 @@ include('../functions.php');
                             <h1 class="poppins-semibold mb-3">Comentários</h1>
 
                             <div class="text-left">
+                                <p class="poppins-semibold d-block mb-2">Introdução</p>
                                 <p class="poppins-regular d-block mb-2">
                                     Temos um tema importante e querido atualmente: a educação a 
                                     distância (EaD). Neste texto, a aluna construiu um projeto interessante: ela afirma a importância 
@@ -138,6 +139,7 @@ include('../functions.php');
                                     muro, quando se mostram dois pontos de vista, mas nenhum deles é efetivamente defendido.
                                 </p>
 
+                                <p class="poppins-semibold d-block mb-2">Desenvolvimento</p>
                                 <p class="poppins-regular d-block mb-2">
                                     O texto se inicia com menção à Constituição de 1988, que define a educação como um direito 
                                     universal, mas não plenamente alcançado. No segundo parágrafo, a aluna recorre às reflexões de 
@@ -147,6 +149,7 @@ include('../functions.php');
                                     um repertório extra explicado brevemente: a situação da política de inclusão digital da Estônia.
                                 </p>
 
+                                <p class="poppins-semibold d-block mb-2">Conclusão</p>
                                 <p class="poppins-regular d-block mb-2">
                                     Na conclusão, são apresentadas duas intervenções, uma completa (com os cinco elementos), 
                                     para resolver a carência de conexão à rede, e outra incompleta, para facilitar a aquisição de 
@@ -154,6 +157,7 @@ include('../functions.php');
                                     devidamente resolvidos e os critérios da competência são totalmente cumpridos.
                                 </p>
 
+                                <p class="poppins-semibold d-block mb-2">Gramática</p>
                                 <p class="poppins-regular d-block mb-2">
                                     A norma culta foi bem empregada na escrita e os conectores aparecem em todos os parágrafos 
                                     adequadamente (“no entanto”, “em primeira análise”, “dito isso”, “por outro lado”, “sob essa 

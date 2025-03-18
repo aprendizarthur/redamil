@@ -270,7 +270,7 @@ function repertoriosRecomendacao($mysqli){
                 <div>
                     <img class=\"img-fluid img-box overflow\" src=\"../".$dados['imagem']."\">
                 </div>
-                <div class=\"bg-preto d-f lex align-items-center text-light p-3 text-left\" style=\"position: relative; bottom: 3px; border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; min-height: 14vh;\">
+                <div class=\"bg-preto d-flex align-items-center text-light p-3 text-left\" style=\"position: relative; bottom: 3px; border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; min-height: 14vh;\">
                     <h4 class=\"poppins-regular d-inline\">".$dados['titulo']."</h4>
                 </div>
             </a>    

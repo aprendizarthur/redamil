@@ -63,12 +63,13 @@ include('../functions.php');
 
                             <div class="text-left">
                                 <a class="poppins-regular mb-2 d-block" href="#sumario-sessao">1. Resumo da etapa</a>
-                                <a class="poppins-regular mb-2 d-block" href="#2">2. Estrutura de uma redação nota 1000</a>
+                                <a class="poppins-regular mb-2 d-block" href="#2">2. Estrutura de uma redação modelo</a>
                                 <a class="poppins-regular mb-2 d-block" href="#3">3. Introdução</a>
                                 <a class="poppins-regular mb-2 d-block" href="#4">4. Desenvolvimento</a>
                                 <a class="poppins-regular mb-2 d-block" href="#5">5. Conclusão</a>
-                                <a class="poppins-regular mb-2 d-block" href="#6">6. Dedique-se</a>
-                                <a class="poppins-regular mb-2 d-block" href="#faq">7. Dúvidas</a>
+                                <a class="poppins-regular mb-2 d-block" href="#6">6. Síntese da estrutura</a>
+                                <a class="poppins-regular mb-2 d-block" href="#7">7. Dedique-se</a>
+                                <a class="poppins-regular mb-2 d-block" href="#faq">8. Dúvidas</a>
                             </div>
                         </div>
                     </div> 
@@ -98,10 +99,10 @@ include('../functions.php');
                 <article id="2">
                     <div class="row d-flex p-2 justify-content-center">
                         <div class="col-12 my-2 text-center">
-                            <h1 class="poppins-semibold mb-3">Estrutura de uma redação nota 1000</h1>
+                            <h1 class="poppins-semibold mb-3">Estrutura de uma redação modelo</h1>
 
                             <div class="text-left">
-                                <p class="poppins-regular d-block mb-2">Abaixo, apresentamos uma redação nota 1000 do Enem, <span class="desenvolvimento-redacao"><strong>de Lara Vilela com o tema " A necessidade do diálogo para a construção de uma sociedade justa e igualitária"</strong></span>, marcando as etapas da estrutura.</p>
+                                <p class="poppins-regular d-block mb-2">Abaixo, apresentamos uma redação modelo do Enem, <span class="desenvolvimento-redacao"><strong>de Lara Vilela com o tema " A necessidade do diálogo para a construção de uma sociedade justa e igualitária"</strong></span>, marcando as etapas da estrutura.</p>
                             </div>
                         </div>
                     </div> 
@@ -187,6 +188,44 @@ include('../functions.php');
                 <article id="6">
                     <div class="row d-flex p-2 justify-content-center">
                         <div class="col-12 my-2 text-center">
+                            <h1 class="poppins-semibold mb-3">Síntese da estrutura</h1>
+
+                            <div class="text-left">
+                                <p class="poppins-regular d-block mb-2">
+                                  <ul>
+                                    <li>
+                                        <span class="desenvolvimento-redacao poppins-semibold mb-2">Introdução</span>
+                                        <p class="poppins-regular mb-2">
+                                        Deve apresentar o tema de forma clara, contextualizando-o com um recorte histórico, social ou cultural relevante, e expor a tese que será defendida, indicando o direcionamento do texto.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <span class="desenvolvimento-redacao poppins-semibold mb-2">Desenvolvimento</span>
+                                        <p class="poppins-regular mb-2">
+                                        É o momento de detalhar os argumentos que sustentam a tese, explorando os desafios relacionados ao tema e propondo reflexões ou soluções, com o uso de repertórios variados (como citações, dados ou conceitos) para fundamentar as ideias.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <span class="desenvolvimento-redacao poppins-semibold mb-2">Conclusão</span>
+                                        <p class="poppins-regular mb-2">
+                                        Retoma a tese inicial, reforçando sua importância, e apresenta uma proposta de intervenção completa (com agente, ação, meio, detalhamento e efeito), encerrando o texto de forma coesa e alinhada ao discutido.
+                                        </p>
+                                    </li>
+                                  </ul>
+                                
+                                </p>
+                            </div>
+                        </div>
+                    </div> 
+                </article>
+            </div>
+         <!--FECHAMENTO SESSÃO 6-->
+
+         <!--ABERTURA SESSÃO 7-->
+         <div class="container box mt-3">
+                <article id="7">
+                    <div class="row d-flex p-2 justify-content-center">
+                        <div class="col-12 my-2 text-center">
                             <h1 class="poppins-semibold mb-3">Dedique-se</h1>
 
                             <div class="text-left">
@@ -196,7 +235,7 @@ include('../functions.php');
                     </div> 
                 </article>
             </div>
-         <!--FECHAMENTO SESSÃO 6-->
+         <!--FECHAMENTO SESSÃO 7-->
 
          <!--ABERTURA SESSÃO DUVIDAS-->
          <div class="container box mt-3">

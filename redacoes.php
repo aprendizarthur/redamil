@@ -51,7 +51,7 @@ include('functions.php');
                                 <div class="box-dia col-12 mt-3 col-md-6 aumentar">
                                     <a href="redacoes-comentadas/armamento-populacao.php"> 
                                         <div>
-                                            <img class="img-fluid img-box overflow" src="images/redacoes/1.jpg">
+                                            <img class="img-fluid img-box overflow" src="images/redacoes/1.webp">
                                         </div>
                                         <div class="bg-preto d-flex align-items-center text-light p-3 text-left" style="position: relative; bottom: 3px; border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; min-height: 14vh;">
                                             <h4 class="poppins-regular d-inline">Armamento da população em questão no Brasil: caminhos para garantir maior segurança</h4>
@@ -62,7 +62,7 @@ include('functions.php');
                                 <div class="box-dia col-12 mt-3 col-md-6 aumentar">
                                     <a href="redacoes-comentadas/respeitar-cultura-indigena.php"> 
                                         <div>
-                                            <img class="img-fluid img-box overflow" src="images/redacoes/2.jpg">
+                                            <img class="img-fluid img-box overflow" src="images/redacoes/2.webp">
                                         </div>
                                         <div class="bg-preto d-flex align-items-center text-light p-3 text-left" style="position: relative; bottom: 3px; border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; min-height: 14vh;">
                                             <h4 class="poppins-regular d-inline">A importância de respeitar as terras e culturas indígenas brasileiras</h4>
@@ -73,7 +73,7 @@ include('functions.php');
                                 <div class="box-dia col-12 mt-3 col-md-6 aumentar">
                                     <a href="redacoes-comentadas/adocao.php"> 
                                         <div>
-                                            <img class="img-fluid img-box overflow" src="images/redacoes/3.jpg">
+                                            <img class="img-fluid img-box overflow" src="images/redacoes/3.webp">
                                         </div>
                                         <div class="bg-preto d-flex align-items-center text-light p-3 text-left" style="position: relative; bottom: 3px; border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; min-height: 14vh;">
                                             <h4 class="poppins-regular d-inline">Adoção: como garantir a todas as crianças o direito a uma família no Brasil</h4>
@@ -84,7 +84,7 @@ include('functions.php');
                                 <div class="box-dia col-12 mt-3 col-md-6 aumentar">
                                     <a href="redacoes-comentadas/gestao-lixo.php"> 
                                         <div>
-                                            <img class="img-fluid img-box overflow" src="images/redacoes/4.jpg">
+                                            <img class="img-fluid img-box overflow" src="images/redacoes/4.webp">
                                         </div>
                                         <div class="bg-preto d-flex align-items-center text-light p-3 text-left" style="position: relative; bottom: 3px; border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; min-height: 14vh;">
                                             <h4 class="poppins-regular d-inline">Os desafios na gestão do lixo no Brasil contemporâneo</h4>
@@ -95,7 +95,7 @@ include('functions.php');
                                 <div class="box-dia col-12 mt-3 col-md-6 aumentar">
                                     <a href="redacoes-comentadas/perigo-automedicacao.php"> 
                                         <div>
-                                            <img class="img-fluid img-box overflow" src="images/redacoes/5.jpg">
+                                            <img class="img-fluid img-box overflow" src="images/redacoes/5.webp">
                                         </div>
                                         <div class="bg-preto d-flex align-items-center text-light p-3 text-left" style="position: relative; bottom: 3px; border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; min-height: 14vh;">
                                             <h4 class="poppins-regular d-inline">A perigosa cultura de automedicação no Brasil</h4>
@@ -106,7 +106,7 @@ include('functions.php');
                                 <div class="box-dia col-12 mt-3 col-md-6 aumentar">
                                     <a href="redacoes-comentadas/narcicismo-selfie.php"> 
                                         <div>
-                                            <img class="img-fluid img-box overflow" src="images/redacoes/6.jpg">
+                                            <img class="img-fluid img-box overflow" src="images/redacoes/6.webp">
                                         </div>
                                         <div class="bg-preto d-flex align-items-center text-light p-3 text-left" style="position: relative; bottom: 3px; border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; min-height: 14vh;">
                                             <h4 class="poppins-regular d-inline">O narcisismo e a cultura das selfies</h4>
@@ -117,7 +117,7 @@ include('functions.php');
                                 <div class="box-dia col-12 mt-3 col-md-6 aumentar">
                                     <a href="redacoes-comentadas/ead.php"> 
                                         <div>
-                                            <img class="img-fluid img-box overflow" src="images/redacoes/7.jpg">
+                                            <img class="img-fluid img-box overflow" src="images/redacoes/7.webp">
                                         </div>
                                         <div class="bg-preto d-flex align-items-center text-light p-3 text-left" style="position: relative; bottom: 3px; border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; min-height: 14vh;">
                                             <h4 class="poppins-regular d-inline">O ensino a distância no Brasil: caminhos para expandir a todos o acesso ao conhecimento</h4>
@@ -128,7 +128,7 @@ include('functions.php');
                                 <div class="box-dia col-12 mt-3 col-md-6 aumentar">
                                     <a href="redacoes-comentadas/necessidade-dialogo.php"> 
                                         <div>
-                                            <img class="img-fluid img-box overflow" src="images/redacoes/8.jpg">
+                                            <img class="img-fluid img-box overflow" src="images/redacoes/8.webp">
                                         </div>
                                         <div class="bg-preto d-flex align-items-center text-light p-3 text-left" style="position: relative; bottom: 3px; border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; min-height: 14vh;">
                                             <h4 class="poppins-regular d-inline">A necessidade do diálogo para a construção de uma sociedade justa e igualitária</h4>
@@ -139,7 +139,7 @@ include('functions.php');
                                 <div class="box-dia col-12 mt-3 col-md-6 aumentar">
                                     <a href="redacoes-comentadas/valorizar-diversidade.php"> 
                                         <div>
-                                            <img class="img-fluid img-box overflow" src="images/redacoes/9.jpg">
+                                            <img class="img-fluid img-box overflow" src="images/redacoes/9.webp">
                                         </div>
                                         <div class="bg-preto d-flex align-items-center text-light p-3 text-left" style="position: relative; bottom: 3px; border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; min-height: 14vh;">
                                             <h4 class="poppins-regular d-inline">A importância de compreender e valorizar a diversidade na formação da identidade brasileira</h4>
@@ -150,7 +150,7 @@ include('functions.php');
                                 <div class="box-dia col-12 mt-3 col-md-6 aumentar">
                                     <a href="redacoes-comentadas/necessidade-dialogo-2.php"> 
                                         <div>
-                                            <img class="img-fluid img-box overflow" src="images/redacoes/10.jpg">
+                                            <img class="img-fluid img-box overflow" src="images/redacoes/10.webp">
                                         </div>
                                         <div class="bg-preto d-flex align-items-center text-light p-3 text-left" style="position: relative; bottom: 3px; border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; min-height: 14vh;">
                                             <h4 class="poppins-regular d-inline">A necessidade do diálogo para a construção de uma sociedade justa e igualitária (2)</h4>
