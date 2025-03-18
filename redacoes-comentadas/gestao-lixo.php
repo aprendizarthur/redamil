@@ -180,7 +180,7 @@ include('../functions.php');
                     
                         <div class="col-12 mt-2 text-center">
                             <h1 class="poppins-semibold">Veja outras redações</h1>
-                            <p class="poppins-regular">Clique e confira mais redações nota 1000 comentadas.</p>
+                            <p class="poppins-regular">Clique e confira mais redações modelo comentadas.</p>
                         </div>
 
                         <div class="col-12 mb-2 text-center aumentar">

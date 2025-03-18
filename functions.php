@@ -388,10 +388,10 @@ function cabecalho() {
                                     <a class="nav-link d-md-none my-2 botao-principal poppins-semibold py-2" rel="nofollow" href="index.php#trilha"><i class="fa-solid fa-list-check mr-2" style="color: #ffffff;"></i>Trilha de aprendizado</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link d-md-none my-2 botao-sucesso poppins-semibold py-2" rel="nofollow" href="https://www.vakinha.com.br/?utm_source=google&utm_medium=cpc&utm_campaign=Vakinha_google_conversao_search_fundo_11_always-on_institucional_home-cpc&utm_content=120558729261&utm_term=vakinha&gad_source=1&gclid=CjwKCAiAiaC-BhBEEiwAjY99qLxNRAJTaXahJbcRTjgZAYMWKhH4W_wga5Zxv6NKnU_OnELKF2H26xoCNFsQAvD_BwE"><i class="fa-solid fa-hand-holding-dollar fa-lg mr-2"></i>Doe para o projeto</a>
+                                    <a class="nav-link d-md-none my-2 botao-sucesso poppins-semibold py-2" rel="nofollow" href="https://www.vakinha.com.br/vaquinha/mantenha-o-redamil-vivo-hospedagem-e-dominio-arthur-borges-vieira"><i class="fa-solid fa-hand-holding-dollar fa-lg mr-2"></i>Doe para o projeto</a>
                                 </li>
                                 <li class="nav-item ml-2">
-                                    <a class="nav-link d-none d-md-block botao-sucesso poppins-semibold py-2 px-3 aumentar" rel="nofollow" href="https://www.vakinha.com.br/?utm_source=google&utm_medium=cpc&utm_campaign=Vakinha_google_conversao_search_fundo_11_always-on_institucional_home-cpc&utm_content=120558729261&utm_term=vakinha&gad_source=1&gclid=CjwKCAiAiaC-BhBEEiwAjY99qLxNRAJTaXahJbcRTjgZAYMWKhH4W_wga5Zxv6NKnU_OnELKF2H26xoCNFsQAvD_BwE"><i class="fa-solid fa-hand-holding-dollar fa-lg"></i></a>
+                                    <a class="nav-link d-none d-md-block botao-sucesso poppins-semibold py-2 px-3 aumentar" rel="nofollow" href="https://www.vakinha.com.br/vaquinha/mantenha-o-redamil-vivo-hospedagem-e-dominio-arthur-borges-vieira"><i class="fa-solid fa-hand-holding-dollar fa-lg"></i></a>
                                 </li>
                             </ul>
                         </div>
@@ -434,7 +434,7 @@ function rodape(){
                                         <span class="nav-link poppins-semibold preto" href="">Projeto</span>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link poppins-regular" rel="nofollow" href="https://www.vakinha.com.br/?utm_source=google&utm_medium=cpc&utm_campaign=Vakinha_google_conversao_search_fundo_11_always-on_institucional_home-cpc&utm_content=120558729261&utm_term=vakinha&gad_source=1&gclid=CjwKCAiAiaC-BhBEEiwAjY99qLxNRAJTaXahJbcRTjgZAYMWKhH4W_wga5Zxv6NKnU_OnELKF2H26xoCNFsQAvD_BwE">Doe para o projeto</a>
+                                        <a class="nav-link poppins-regular" rel="nofollow" href="https://www.vakinha.com.br/vaquinha/mantenha-o-redamil-vivo-hospedagem-e-dominio-arthur-borges-vieira">Doe para o projeto</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link poppins-regular" rel="nofollow" href="privacidade.php">Privacidade</a>
@@ -484,10 +484,10 @@ function cabecalhotTrilha() {
                                     <a class="nav-link d-md-none my-2 botao-principal poppins-semibold py-2" rel="nofollow" href="../index.php#trilha"><i class="fa-solid fa-list-check mr-2" style="color: #ffffff;"></i>Trilha de aprendizado</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link d-md-none my-2 botao-atencao poppins-semibold py-2" rel="nofollow" href="https://www.vakinha.com.br/?utm_source=google&utm_medium=cpc&utm_campaign=Vakinha_google_conversao_search_fundo_11_always-on_institucional_home-cpc&utm_content=120558729261&utm_term=vakinha&gad_source=1&gclid=CjwKCAiAiaC-BhBEEiwAjY99qLxNRAJTaXahJbcRTjgZAYMWKhH4W_wga5Zxv6NKnU_OnELKF2H26xoCNFsQAvD_BwE"><i class="fa-solid fa-hand-holding-dollar fa-lg mr-2"></i>Doe para o projeto</a>
+                                    <a class="nav-link d-md-none my-2 botao-atencao poppins-semibold py-2" rel="nofollow" href="https://www.vakinha.com.br/vaquinha/mantenha-o-redamil-vivo-hospedagem-e-dominio-arthur-borges-vieira"><i class="fa-solid fa-hand-holding-dollar fa-lg mr-2"></i>Doe para o projeto</a>
                                 </li>
                                 <li class="nav-item ml-2">
-                                    <a class="nav-link d-none d-md-block botao-sucesso poppins-semibold py-2 px-3 aumentar" rel="nofollow" href="https://www.vakinha.com.br/?utm_source=google&utm_medium=cpc&utm_campaign=Vakinha_google_conversao_search_fundo_11_always-on_institucional_home-cpc&utm_content=120558729261&utm_term=vakinha&gad_source=1&gclid=CjwKCAiAiaC-BhBEEiwAjY99qLxNRAJTaXahJbcRTjgZAYMWKhH4W_wga5Zxv6NKnU_OnELKF2H26xoCNFsQAvD_BwE"><i class="fa-solid fa-hand-holding-dollar fa-lg"></i></a>
+                                    <a class="nav-link d-none d-md-block botao-sucesso poppins-semibold py-2 px-3 aumentar" rel="nofollow" href="https://www.vakinha.com.br/vaquinha/mantenha-o-redamil-vivo-hospedagem-e-dominio-arthur-borges-vieira"><i class="fa-solid fa-hand-holding-dollar fa-lg"></i></a>
                                 </li>
                             </ul>
                         </div>
@@ -530,7 +530,7 @@ function rodapeTrilha(){
                                         <span class="nav-link poppins-semibold preto" href="">Projeto</span>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link poppins-regular" rel="nofollow" href="https://www.vakinha.com.br/?utm_source=google&utm_medium=cpc&utm_campaign=Vakinha_google_conversao_search_fundo_11_always-on_institucional_home-cpc&utm_content=120558729261&utm_term=vakinha&gad_source=1&gclid=CjwKCAiAiaC-BhBEEiwAjY99qLxNRAJTaXahJbcRTjgZAYMWKhH4W_wga5Zxv6NKnU_OnELKF2H26xoCNFsQAvD_BwE">Doe para o projeto</a>
+                                        <a class="nav-link poppins-regular" rel="nofollow" href="https://www.vakinha.com.br/vaquinha/mantenha-o-redamil-vivo-hospedagem-e-dominio-arthur-borges-vieira">Doe para o projeto</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link poppins-regular" rel="nofollow" href="../privacidade.php">Privacidade</a>

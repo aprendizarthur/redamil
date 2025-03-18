@@ -122,7 +122,7 @@ include('functions.php');
                     <div class="row d-flex p-2">
                         <div class="col-12 my-2 text-center">
                             <h1 class="poppins-semibold">Redações Comentadas <a href="#faq-tema"><i class="fa-solid fa-2xs fa-circle-question ml-1" style="color: #d7d6d6; position: relative; top: 2px"></i></a></h1>
-                            <p class="poppins-regular">Confira redações nota 1000 comentadas. </p>
+                            <p class="poppins-regular">Confira redações modelo comentadas. </p>
                             
                             <div class="row">
                                 <div class="box-dia col-12 col-md-6 aumentar">
