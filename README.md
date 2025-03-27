@@ -3,7 +3,7 @@
 </div>
 
 <div align="center" style="margin-top: 20px;">
-  <img src="assets/index.jpg" style="border-radius: 20px; max-width: 80%; height: auto;">
+  <img src="../images/assets/index.jpg" style="border-radius: 20px; max-width: 80%; height: auto;">
 </div>
 
 <br>
@@ -64,7 +64,7 @@
 </div>
 
 <div align="center">
-  <img src="assets/repertorio.jpg" style="border-radius: 20px; max-width: 80%; height: auto;">
+  <img src="../images/assets/repertorio.jpg" style="border-radius: 20px; max-width: 80%; height: auto;">
 </div>
 
 <div align="center" style="margin-top: 20px; margin-bottom: 20px;">
@@ -72,7 +72,7 @@
 </div>
 
 <div align="center">
-  <img src="assets/temas.jpg" style="border-radius: 20px; height: auto;">
+  <img src="../images/assets/temas.jpg" style="border-radius: 20px; height: auto;">
 </div>
 
 <div align="center" style="margin-top: 20px; margin-bottom: 20px;">
@@ -80,7 +80,7 @@
 </div>
 
 <div align="center">
-  <img src="assets/redacoes.jpg" style="border-radius: 20px; max-width: 80%; height: auto;">
+  <img src="../images/assets/redacoes.jpg" style="border-radius: 20px; max-width: 80%; height: auto;">
 </div>
 
 
