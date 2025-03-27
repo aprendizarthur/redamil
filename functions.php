@@ -222,7 +222,7 @@ function repertorioDia($mysqli){
         $dados = $resultado->fetch_assoc();
 
         echo "
-        <div class=\"box-dia aumentar\" id=\"".$dados['id_pagina']."\">
+        <article class=\"box-dia aumentar\" id=\"".$dados['id_pagina']."\">
             <a href=\"".$dados['link']."\"> 
                 <div>
                     <img class=\"img-fluid img-box overflow\" src=\"".$dados['imagem']."\">
@@ -231,7 +231,7 @@ function repertorioDia($mysqli){
                     <h4 class=\"poppins-regular d-inline\">".$dados['titulo']."</h4>
                 </div>
             </a>    
-        </div>
+        </article>
         ";
 
     } else {
