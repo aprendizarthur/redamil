@@ -64,7 +64,7 @@
 </div>
 
 <div align="center">
-  <img src="images/assets/repertorio.jpg" style="border-radius: 20px; max-width: 80%; height: auto;">
+  <img src="images/assets/repertorios.png" style="border-radius: 20px; max-width: 80%; height: auto;">
 </div>
 
 <div align="center" style="margin-top: 20px; margin-bottom: 20px;">
@@ -72,7 +72,7 @@
 </div>
 
 <div align="center">
-  <img src="images/assets/temas.jpg" style="border-radius: 20px; height: auto;">
+  <img src="images/assets/temas.png" style="border-radius: 20px; height: auto;">
 </div>
 
 <div align="center" style="margin-top: 20px; margin-bottom: 20px;">
@@ -80,7 +80,7 @@
 </div>
 
 <div align="center">
-  <img src="images/assets/redacoes.jpg" style="border-radius: 20px; max-width: 80%; height: auto;">
+  <img src="images/assets/redacoes.png" style="border-radius: 20px; max-width: 80%; height: auto;">
 </div>
 
 
