@@ -36,7 +36,7 @@
 </div>
 
 <ul>
-  <li>Entrega aos usuários conteúdos como redações modelo comentadas, repertórios e temas para praticar a escrita para a redação do ENEM</li>
+  <li>Entrega aos usuários conteúdos como redações modelo comentadas, argumentos, repertórios e temas para praticar a escrita para a redação do ENEM</li>
   <li>Na index apresenta um tema e um repertório para redação aleatório do banco de dados toda vez que é recarregado</li>
   <li>Em cada página de repertório/tema específico apresenta mais dois repertórios/temas aleatórios de recomendação</li>
   <li>Nas páginas de temas e relatórios possui uma filtragem por categoria</li>
