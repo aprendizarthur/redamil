@@ -48,6 +48,7 @@
 
 <ul>
   <li>Aprender e implementar prepared statement para diminuir a possibilidade de SQL Injection</li>
+  <li>Ao invés de criar um arquivo para cada tema/redação passar apenas o id dela por GET e usar PHP para imprimir o conteúdo do post numa página padrão</li>
 </ul>
 
 <div align="left" style="margin-top: 20px; margin-bottom: 20px;">
